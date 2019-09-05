@@ -37,7 +37,8 @@ def AB_Partial_FD_test( x , u ):
   EPS_x = 1e-3*np.ones((Nx,1)) # tune these individual values to fit the scale of your problem
   EPS_u = 1e-3*np.ones((Nu,1)) # tune these individual values to fit the scale of your problem
 
-  params = [x,u]
+  phase_start = 0
+  params = [x,u,phase_start]
   timeStep = 0.01
   energy_weight = 0.01
   f = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
@@ -49,7 +50,7 @@ def AB_Partial_FD_test( x , u ):
   for i in range(0,Nx):
     xb = x.copy()
     xb[i] = xb[i] + EPS_x[i] # perturb u(i), leave the rest alone
-    params = [xb, u]
+    params = [xb, u,phase_start]
     f_eps = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
                                 params=params,
                                 objectiveParams=[energy_weight],
@@ -61,7 +62,7 @@ def AB_Partial_FD_test( x , u ):
   for i in range(0,Nu):
     ub = u ;
     ub[i] = ub[i]+EPS_u[i] ;# perturb u(i), leave the rest alone
-    params = [x , ub]
+    params = [x , ub,phase_start]
     f_eps = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
                                 params=params,
                                 objectiveParams=[energy_weight],
@@ -95,18 +96,18 @@ def main(unused_args):
   phase_start = 0 # set to 1 for starting from the opposite leg pair UNTESTED AT THE MOMENT
   params = [x,u,phase_start]
 
-  evaluate_func = 'evaluate_desired_ClarkTrot'
-  energy_weight = 0.01
+  # evaluate_func = 'evaluate_desired_ClarkTrot'
+  # energy_weight = 0.01
 
-  new_state = evaluate_params(evaluateFunc=evaluate_func,
-                                params=params,
-                                objectiveParams=[energy_weight],
-                                timeStep=timeStep,
-                                sleepTime=timeStep)
+  # new_state = evaluate_params(evaluateFunc=evaluate_func,
+  #                               params=params,
+  #                               objectiveParams=[energy_weight],
+  #                               timeStep=timeStep,
+  #                               sleepTime=timeStep)
 
   # print(new_state)
   t = time.time()
-  A,B = AB_Partial_FD_test( x , u )
+  A,B = AB_Partial_FD_test( x , u)
   elapsed = time.time() - t
   print A
   print B
