@@ -1,0 +1,5 @@
+<map id="btSoftBody::AJoint::Specs" name="btSoftBody::AJoint::Specs">
+<area shape="rect" id="node2" href="$structbtSoftBody_1_1Joint_1_1Specs.html" title="btSoftBody::Joint::\lSpecs" alt="" coords="5,5,136,47"/>
+<area shape="rect" id="node3" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="161,13,239,39"/>
+<area shape="rect" id="node4" href="$structbtSoftBody_1_1AJoint_1_1IControl.html" title="btSoftBody::AJoint\l::IControl" alt="" coords="263,5,395,47"/>
+</map>

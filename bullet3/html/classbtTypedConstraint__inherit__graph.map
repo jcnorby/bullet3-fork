@@ -1,0 +1,16 @@
+<map id="btTypedConstraint" name="btTypedConstraint">
+<area shape="rect" id="node3" href="$classbtConeTwistConstraint.html" title="btConeTwistConstraint can be used to simulate ragdoll joints (upper arm, leg etc) ..." alt="" coords="365,5,521,32"/>
+<area shape="rect" id="node4" href="$classbtContactConstraint.html" title="btContactConstraint can be automatically created to solve contact constraints using the unified btTyp..." alt="" coords="373,56,512,83"/>
+<area shape="rect" id="node5" href="$classbtGearConstraint.html" title="The btGeatConstraint will couple the angular velocity for two bodies around given local axis and rati..." alt="" coords="382,107,503,133"/>
+<area shape="rect" id="node6" href="$classbtGeneric6DofConstraint.html" title="btGeneric6DofConstraint between two rigidbodies each with a pivotpoint that descibes the axis locatio..." alt="" coords="359,157,526,184"/>
+<area shape="rect" id="node9" href="$classbtGeneric6DofSpring2Constraint.html" title="btGeneric6DofSpring2Constraint" alt="" coords="337,208,548,235"/>
+<area shape="rect" id="node12" href="$classbtHingeConstraint.html" title="hinge constraint between two rigidbodies each with a pivotpoint that descibes the axis location in lo..." alt="" coords="379,259,506,285"/>
+<area shape="rect" id="node14" href="$classbtPoint2PointConstraint.html" title="point to point constraint between two rigidbodies each with a pivotpoint that descibes the &#39;ballsocke..." alt="" coords="363,309,523,336"/>
+<area shape="rect" id="node15" href="$classbtSliderConstraint.html" title="btSliderConstraint" alt="" coords="379,360,506,387"/>
+<area shape="rect" id="node2" href="$structbtTypedObject.html" title="rudimentary class to provide type info " alt="" coords="5,183,112,209"/>
+<area shape="rect" id="node7" href="$classbtGeneric6DofSpringConstraint.html" title="Generic 6 DOF constraint that allows to set spring motors to any translational and rotational DOF..." alt="" coords="613,107,815,133"/>
+<area shape="rect" id="node8" href="$classbtUniversalConstraint.html" title="Constraint similar to ODE Universal Joint has 2 rotatioonal degrees of freedom, similar to Euler rota..." alt="" coords="640,157,788,184"/>
+<area shape="rect" id="node10" href="$classbtFixedConstraint.html" title="btFixedConstraint" alt="" coords="651,208,777,235"/>
+<area shape="rect" id="node11" href="$classbtHinge2Constraint.html" title="btHinge2Constraint" alt="" coords="647,259,781,285"/>
+<area shape="rect" id="node13" href="$classbtHingeAccumulatedAngleConstraint.html" title="The getAccumulatedHingeAngle returns the accumulated hinge angle, taking rotation across the &#45;PI/PI b..." alt="" coords="596,309,832,336"/>
+</map>

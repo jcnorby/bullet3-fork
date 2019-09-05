@@ -1,0 +1,9 @@
+<map id="btSoftBody::Tetra" name="btSoftBody::Tetra">
+<area shape="rect" id="node2" href="$structbtSoftBody_1_1Feature.html" title="btSoftBody::Feature" alt="" coords="81,259,219,285"/>
+<area shape="rect" id="node6" href="$structbtSoftBody_1_1Node.html" title="btSoftBody::Node" alt="" coords="192,349,319,376"/>
+<area shape="rect" id="node3" href="$structbtSoftBody_1_1Element.html" title="btSoftBody::Element" alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node4" href="$structbtSoftBody_1_1Material.html" title="btSoftBody::Material" alt="" coords="78,109,219,136"/>
+<area shape="rect" id="node5" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="312,5,391,32"/>
+<area shape="rect" id="node8" href="$structbtDbvtAabbMm.html" title="btDbvtAabbMm" alt="" coords="295,109,408,136"/>
+<area shape="rect" id="node7" href="$structbtDbvtNode.html" title="btDbvtNode" alt="" coords="295,259,387,285"/>
+</map>

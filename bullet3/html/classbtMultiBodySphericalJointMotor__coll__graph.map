@@ -1,0 +1,27 @@
+<map id="btMultiBodySphericalJointMotor" name="btMultiBodySphericalJointMotor">
+<area shape="rect" id="node2" href="$classbtMultiBodyConstraint.html" title="btMultiBodyConstraint" alt="" coords="1426,219,1577,246"/>
+<area shape="rect" id="node3" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btScalar \&gt;" alt="" coords="647,212,793,253"/>
+<area shape="rect" id="node5" href="$classbtMultiBody.html" title="btMultiBody" alt="" coords="1070,330,1161,357"/>
+<area shape="rect" id="node4" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btScalar, 16 \&gt;" alt="" coords="271,207,397,248"/>
+<area shape="rect" id="node11" href="$classbtMultiBodyLinkCollider.html" title="btMultiBodyLinkCollider" alt="" coords="1422,435,1581,462"/>
+<area shape="rect" id="node6" href="$classbtQuaternion.html" title="The btQuaternion implements quaternion to perform linear algebra rotations in combination with btMatr..." alt="" coords="672,141,768,167"/>
+<area shape="rect" id="node23" href="$structbtMultibodyLink.html" title="btMultibodyLink" alt="" coords="1737,501,1850,527"/>
+<area shape="rect" id="node7" href="$classbtQuadWord.html" title="The btQuadWord class is base class for btVector3 and btQuaternion. " alt="" coords="287,141,381,167"/>
+<area shape="rect" id="node8" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="29,583,108,610"/>
+<area shape="rect" id="node9" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btVector3 \&gt;" alt="" coords="261,272,407,313"/>
+<area shape="rect" id="node12" href="$classbtCollisionObject.html" title="btCollisionObject can be used to manage collision detection objects. " alt="" coords="1055,775,1176,802"/>
+<area shape="rect" id="node16" href="$classbtTransform.html" title="The btTransform class supports rigid transforms with only translation and rotation and no scaling/she..." alt="" coords="674,570,766,597"/>
+<area shape="rect" id="node17" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="289,507,379,534"/>
+<area shape="rect" id="node18" href="$structbtBroadphaseProxy.html" title="The btBroadphaseProxy is the main class that can be used with the Bullet broadphases. " alt="" coords="455,851,591,878"/>
+<area shape="rect" id="node25" href="$structbtSpatialForceVector.html" title="These spatial algebra classes are used for btMultiBody, see BulletDynamics/Featherstone. " alt="" coords="262,621,406,647"/>
+<area shape="rect" id="node26" href="$structbtSpatialMotionVector.html" title="btSpatialMotionVector" alt="" coords="1229,929,1379,955"/>
+<area shape="rect" id="node10" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btVector3, 16 \&gt;" alt="" coords="5,5,132,47"/>
+<area shape="rect" id="node13" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; const btCollisionObject *\&gt;" alt="" coords="1408,804,1595,845"/>
+<area shape="rect" id="node14" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; const btCollisionObject\l *, 16 \&gt;" alt="" coords="1031,842,1200,898"/>
+<area shape="rect" id="node15" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="660,825,780,851"/>
+<area shape="rect" id="node19" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btMatrix3x3 \&gt;" alt="" coords="647,397,793,439"/>
+<area shape="rect" id="node20" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btMatrix3x3, 16 \&gt;" alt="" coords="266,417,402,459"/>
+<area shape="rect" id="node21" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btMultibodyLink \&gt;" alt="" coords="2000,385,2145,427"/>
+<area shape="rect" id="node22" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btMultibodyLink, 16 \&gt;" alt="" coords="1714,385,1873,427"/>
+<area shape="rect" id="node24" href="$structbtMultiBodyJointFeedback.html" title="btMultiBodyJointFeedback" alt="" coords="828,534,1004,561"/>
+</map>

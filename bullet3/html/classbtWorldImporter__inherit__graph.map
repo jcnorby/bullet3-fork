@@ -1,0 +1,4 @@
+<map id="btWorldImporter" name="btWorldImporter">
+<area shape="rect" id="node2" href="$classbtBulletWorldImporter.html" title="The btBulletWorldImporter is a starting point to import .bullet files. " alt="" coords="18,80,166,107"/>
+<area shape="rect" id="node3" href="$classbtMultiBodyWorldImporter.html" title="btMultiBodyWorldImporter" alt="" coords="5,155,179,181"/>
+</map>

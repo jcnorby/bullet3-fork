@@ -1,0 +1,12 @@
+<map id="btGhostObject" name="btGhostObject">
+<area shape="rect" id="node2" href="$classbtCollisionObject.html" title="btCollisionObject can be used to manage collision detection objects. " alt="" coords="915,135,1036,161"/>
+<area shape="rect" id="node3" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; const btCollisionObject *\&gt;" alt="" coords="1268,197,1455,238"/>
+<area shape="rect" id="node10" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btCollisionObject *\&gt;" alt="" coords="1286,43,1437,85"/>
+<area shape="rect" id="node4" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; const btCollisionObject\l *, 16 \&gt;" alt="" coords="891,235,1060,291"/>
+<area shape="rect" id="node5" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="5,97,84,124"/>
+<area shape="rect" id="node7" href="$classbtTransform.html" title="The btTransform class supports rigid transforms with only translation and rotation and no scaling/she..." alt="" coords="550,107,642,133"/>
+<area shape="rect" id="node8" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="208,140,299,167"/>
+<area shape="rect" id="node9" href="$structbtBroadphaseProxy.html" title="The btBroadphaseProxy is the main class that can be used with the Bullet broadphases. " alt="" coords="347,173,483,200"/>
+<area shape="rect" id="node6" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="536,220,656,247"/>
+<area shape="rect" id="node11" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btCollisionObject\l *, 16 \&gt;" alt="" coords="909,5,1042,61"/>
+</map>

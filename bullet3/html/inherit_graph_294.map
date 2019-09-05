@@ -1,0 +1,20 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classbtCollisionAlgorithm.html" title="btCollisionAlgorithm is an collision interface that is compatible with the Broadphase and btDispatche..." alt="" coords="5,376,144,403"/>
+<area shape="rect" id="node2" href="$classbtActivatingCollisionAlgorithm.html" title="This class is not enabled yet (work&#45;in&#45;progress) to more aggressively activate objects. " alt="" coords="202,245,398,272"/>
+<area shape="rect" id="node14" href="$classbtConvexPlaneCollisionAlgorithm.html" title="btSphereBoxCollisionAlgorithm provides sphere&#45;box collision detection. " alt="" coords="192,296,408,323"/>
+<area shape="rect" id="node15" href="$classbtEmptyAlgorithm.html" title="EmptyAlgorithm is a stub for unsupported collision pairs. " alt="" coords="237,347,363,373"/>
+<area shape="rect" id="node16" href="$classbtSoftBodyConcaveCollisionAlgorithm.html" title="btSoftBodyConcaveCollisionAlgorithm supports collision between soft body shapes and (concave) triange..." alt="" coords="205,398,395,439"/>
+<area shape="rect" id="node17" href="$classbtSoftRigidCollisionAlgorithm.html" title="btSoftRigidCollisionAlgorithm provides collision detection between btSoftBody and btRigidBody ..." alt="" coords="204,464,396,491"/>
+<area shape="rect" id="node18" href="$classbtSoftSoftCollisionAlgorithm.html" title="collision detection between two btSoftBody shapes " alt="" coords="207,515,393,541"/>
+<area shape="rect" id="node3" href="$classbtBox2dBox2dCollisionAlgorithm.html" title="box&#45;box collision detection " alt="" coords="460,5,672,32"/>
+<area shape="rect" id="node4" href="$classbtBoxBoxCollisionAlgorithm.html" title="box&#45;box collision detection " alt="" coords="474,56,658,83"/>
+<area shape="rect" id="node5" href="$classbtCompoundCollisionAlgorithm.html" title="btCompoundCollisionAlgorithm supports collision between CompoundCollisionShapes and other collision s..." alt="" coords="465,107,667,133"/>
+<area shape="rect" id="node7" href="$classbtConvex2dConvex2dAlgorithm.html" title="The convex2dConvex2dAlgorithm collision algorithm support 2d collision detection for btConvex2dShape ..." alt="" coords="463,157,669,184"/>
+<area shape="rect" id="node8" href="$classbtConvexConcaveCollisionAlgorithm.html" title="btConvexConcaveCollisionAlgorithm supports collision between convex shapes and (concave) trianges mes..." alt="" coords="476,209,656,250"/>
+<area shape="rect" id="node9" href="$classbtConvexConvexAlgorithm.html" title="Enabling USE_SEPDISTANCE_UTIL2 requires 100% reliable distance computation. " alt="" coords="477,275,655,301"/>
+<area shape="rect" id="node10" href="$classbtGImpactCollisionAlgorithm.html" title="Collision Algorithm for GImpact Shapes. " alt="" coords="472,325,660,352"/>
+<area shape="rect" id="node11" href="$classbtSphereBoxCollisionAlgorithm.html" title="btSphereBoxCollisionAlgorithm provides sphere&#45;box collision detection. " alt="" coords="465,376,667,403"/>
+<area shape="rect" id="node12" href="$classbtSphereSphereCollisionAlgorithm.html" title="btSphereSphereCollisionAlgorithm provides sphere&#45;sphere collision detection. " alt="" coords="456,427,676,453"/>
+<area shape="rect" id="node13" href="$classbtSphereTriangleCollisionAlgorithm.html" title="btSphereSphereCollisionAlgorithm provides sphere&#45;sphere collision detection. " alt="" coords="481,478,651,519"/>
+<area shape="rect" id="node6" href="$classbtCompoundCompoundCollisionAlgorithm.html" title="btCompoundCompoundCollisionAlgorithm supports collision between two btCompoundCollisionShape shapes ..." alt="" coords="724,99,933,141"/>
+</map>

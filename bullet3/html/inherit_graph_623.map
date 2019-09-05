@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classbtWorldImporter.html" title="btWorldImporter" alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" href="$classbtBulletWorldImporter.html" title="The btBulletWorldImporter is a starting point to import .bullet files. " alt="" coords="168,5,316,32"/>
+<area shape="rect" id="node3" href="$classbtMultiBodyWorldImporter.html" title="btMultiBodyWorldImporter" alt="" coords="364,5,537,32"/>
+</map>

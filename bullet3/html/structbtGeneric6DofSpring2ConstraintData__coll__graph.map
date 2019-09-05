@@ -1,0 +1,6 @@
+<map id="btGeneric6DofSpring2ConstraintData" name="btGeneric6DofSpring2ConstraintData">
+<area shape="rect" id="node2" href="$structbtVector3FloatData.html" title="btVector3FloatData" alt="" coords="118,5,253,32"/>
+<area shape="rect" id="node4" href="$structbtTransformFloatData.html" title="for serialization " alt="" coords="111,331,260,357"/>
+<area shape="rect" id="node5" href="$structbtMatrix3x3FloatData.html" title="for serialization " alt="" coords="263,95,409,121"/>
+<area shape="rect" id="node3" href="$structbtTypedConstraintData.html" title="this structure is not used, except for loading pre&#45;2.82 .bullet files " alt="" coords="284,331,441,357"/>
+</map>

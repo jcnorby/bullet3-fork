@@ -1,0 +1,16 @@
+<map id="btSdfCollisionShape" name="btSdfCollisionShape">
+<area shape="rect" id="node2" href="$classbtConcaveShape.html" title="The btConcaveShape class provides an interface for non&#45;moving (static) concave shapes. " alt="" coords="1093,173,1216,200"/>
+<area shape="rect" id="node3" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="840,173,960,200"/>
+<area shape="rect" id="node4" href="$structbtSdfCollisionShapeInternalData.html" title="btSdfCollisionShapeInternalData" alt="" coords="1049,224,1260,251"/>
+<area shape="rect" id="node5" href="$structbtMiniSDF.html" title="btMiniSDF" alt="" coords="858,224,942,251"/>
+<area shape="rect" id="node6" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btAlignedObjectArray\l\&lt; unsigned int \&gt; \&gt;" alt="" coords="541,176,699,232"/>
+<area shape="rect" id="node7" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; unsigned int \&gt;" alt="" coords="270,166,415,207"/>
+<area shape="rect" id="node8" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; unsigned int, 16 \&gt;" alt="" coords="5,166,144,207"/>
+<area shape="rect" id="node9" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btAlignedObjectArray\l\&lt; unsigned int \&gt;, 16 \&gt;" alt="" coords="264,232,421,288"/>
+<area shape="rect" id="node10" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="303,323,382,349"/>
+<area shape="rect" id="node13" href="$structbtAlignedBox3d.html" title="btAlignedBox3d" alt="" coords="563,256,677,283"/>
+<area shape="rect" id="node11" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btAlignedObjectArray\l\&lt; btCell32 \&gt; \&gt;" alt="" coords="541,8,699,64"/>
+<area shape="rect" id="node12" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btAlignedObjectArray\l\&lt; btCell32 \&gt;, 16 \&gt;" alt="" coords="264,5,421,61"/>
+<area shape="rect" id="node14" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btAlignedObjectArray\l\&lt; double \&gt; \&gt;" alt="" coords="541,93,699,149"/>
+<area shape="rect" id="node15" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btAlignedObjectArray\l\&lt; double \&gt;, 16 \&gt;" alt="" coords="264,85,421,141"/>
+</map>

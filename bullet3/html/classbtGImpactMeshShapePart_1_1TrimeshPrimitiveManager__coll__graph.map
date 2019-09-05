@@ -1,0 +1,5 @@
+<map id="btGImpactMeshShapePart::TrimeshPrimitiveManager" name="btGImpactMeshShapePart::TrimeshPrimitiveManager">
+<area shape="rect" id="node2" href="$classbtPrimitiveManagerBase.html" title="Prototype Base class for primitive classification. " alt="" coords="5,95,169,121"/>
+<area shape="rect" id="node3" href="$classbtStridingMeshInterface.html" title="The btStridingMeshInterface is the interface class for high performance generic access to triangle me..." alt="" coords="295,95,455,121"/>
+<area shape="rect" id="node4" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="200,5,279,32"/>
+</map>

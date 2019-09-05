@@ -1,0 +1,12 @@
+<map id="btKinematicClosestNotMeRayResultCallback" name="btKinematicClosestNotMeRayResultCallback">
+<area shape="rect" id="node2" href="$structbtCollisionWorld_1_1ClosestRayResultCallback.html" title="btCollisionWorld::Closest\lRayResultCallback" alt="" coords="1544,102,1715,143"/>
+<area shape="rect" id="node3" href="$structbtCollisionWorld_1_1RayResultCallback.html" title="RayResultCallback is used to report new raycast results. " alt="" coords="1268,102,1455,143"/>
+<area shape="rect" id="node4" href="$classbtCollisionObject.html" title="btCollisionObject can be used to manage collision detection objects. " alt="" coords="915,189,1036,216"/>
+<area shape="rect" id="node5" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; const btCollisionObject *\&gt;" alt="" coords="1268,255,1455,297"/>
+<area shape="rect" id="node6" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; const btCollisionObject\l *, 16 \&gt;" alt="" coords="891,293,1060,349"/>
+<area shape="rect" id="node7" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="5,209,84,236"/>
+<area shape="rect" id="node9" href="$classbtTransform.html" title="The btTransform class supports rigid transforms with only translation and rotation and no scaling/she..." alt="" coords="550,209,642,236"/>
+<area shape="rect" id="node10" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="208,209,299,236"/>
+<area shape="rect" id="node11" href="$structbtBroadphaseProxy.html" title="The btBroadphaseProxy is the main class that can be used with the Bullet broadphases. " alt="" coords="347,309,483,336"/>
+<area shape="rect" id="node8" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="536,108,656,135"/>
+</map>

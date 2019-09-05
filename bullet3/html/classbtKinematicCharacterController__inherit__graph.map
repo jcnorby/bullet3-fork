@@ -1,0 +1,4 @@
+<map id="btKinematicCharacterController" name="btKinematicCharacterController">
+<area shape="rect" id="node2" href="$classbtCharacterControllerInterface.html" title="btCharacterControllerInterface" alt="" coords="9,80,206,107"/>
+<area shape="rect" id="node3" href="$classbtActionInterface.html" title="Basic interface to allow actions such as vehicles and characters to be updated inside a btDynamicsWor..." alt="" coords="47,5,168,32"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="btBulletSerializedArrays" name="btBulletSerializedArrays">
+<area shape="rect" id="node2" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btCollisionObjectDouble\lData *\&gt;" alt="" coords="1159,275,1369,331"/>
+<area shape="rect" id="node3" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btCollisionObject\lDoubleData *, 16 \&gt;" alt="" coords="781,219,952,275"/>
+<area shape="rect" id="node4" href="$structbtCollisionObjectDoubleData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64 ..." alt="" coords="771,299,962,325"/>
+<area shape="rect" id="node30" href="$structbtRigidBodyDoubleData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64 ..." alt="" coords="1183,364,1345,391"/>
+<area shape="rect" id="node5" href="$structbtCollisionShapeData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64 ..." alt="" coords="347,563,495,589"/>
+<area shape="rect" id="node9" href="$structbtCollisionObjectFloatData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64 ..." alt="" coords="777,744,956,771"/>
+<area shape="rect" id="node38" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btCollisionShapeData *\&gt;" alt="" coords="759,666,974,707"/>
+<area shape="rect" id="node6" href="$structbtTransformDoubleData.html" title="btTransformDoubleData" alt="" coords="341,228,502,255"/>
+<area shape="rect" id="node7" href="$structbtVector3DoubleData.html" title="btVector3DoubleData" alt="" coords="5,228,152,255"/>
+<area shape="rect" id="node24" href="$structbtDynamicsWorldDoubleData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64 ..." alt="" coords="324,5,519,32"/>
+<area shape="rect" id="node27" href="$structbtQuantizedBvhDoubleData.html" title="btQuantizedBvhDoubleData" alt="" coords="329,512,513,539"/>
+<area shape="rect" id="node8" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btCollisionObjectFloat\lData *\&gt;" alt="" coords="1165,597,1363,653"/>
+<area shape="rect" id="node18" href="$structbtSoftBodyFloatData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64 ..." alt="" coords="1192,951,1336,977"/>
+<area shape="rect" id="node34" href="$structbtRigidBodyFloatData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64 ..." alt="" coords="1189,827,1339,853"/>
+<area shape="rect" id="node10" href="$structbtVector3FloatData.html" title="btVector3FloatData" alt="" coords="11,1035,146,1061"/>
+<area shape="rect" id="node11" href="$structbtTransformFloatData.html" title="for serialization " alt="" coords="347,884,496,911"/>
+<area shape="rect" id="node19" href="$structbtSoftBodyJointData.html" title="btSoftBodyJointData" alt="" coords="573,1099,715,1125"/>
+<area shape="rect" id="node21" href="$structSoftBodyFaceData.html" title="SoftBodyFaceData" alt="" coords="577,1057,711,1084"/>
+<area shape="rect" id="node22" href="$structSoftBodyClusterData.html" title="SoftBodyClusterData" alt="" coords="793,952,940,979"/>
+<area shape="rect" id="node44" href="$structbtDynamicsWorldFloatData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64 ..." alt="" coords="330,1252,513,1279"/>
+<area shape="rect" id="node49" href="$structbtQuantizedBvhFloatData.html" title="btQuantizedBvhFloatData" alt="" coords="335,1303,507,1329"/>
+<area shape="rect" id="node12" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btCollisionObject\lFloatData *, 16 \&gt;" alt="" coords="781,585,952,641"/>
+<area shape="rect" id="node13" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btTypedConstraintData *\&gt;" alt="" coords="1943,1231,2165,1273"/>
+<area shape="rect" id="node14" href="$structbtTypedConstraintData.html" title="this structure is not used, except for loading pre&#45;2.82 .bullet files " alt="" coords="1525,1304,1682,1331"/>
+<area shape="rect" id="node15" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btTypedConstraint\lData *, 16 \&gt;" alt="" coords="1514,1224,1693,1280"/>
+<area shape="rect" id="node16" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btSoftBodyFloatData *\&gt;" alt="" coords="1498,943,1709,985"/>
+<area shape="rect" id="node17" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btSoftBodyFloatData\l *, 16 \&gt;" alt="" coords="1167,1001,1361,1057"/>
+<area shape="rect" id="node20" href="$structSoftBodyConfigData.html" title="SoftBodyConfigData" alt="" coords="795,901,938,928"/>
+<area shape="rect" id="node23" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btDynamicsWorldDouble\lData *\&gt;" alt="" coords="759,56,975,112"/>
+<area shape="rect" id="node25" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btDynamicsWorldDouble\lData *, 16 \&gt;" alt="" coords="313,56,529,112"/>
+<area shape="rect" id="node26" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btQuantizedBvhDouble\lData *\&gt;" alt="" coords="764,500,969,556"/>
+<area shape="rect" id="node28" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btQuantizedBvhDouble\lData *, 16 \&gt;" alt="" coords="319,432,524,488"/>
+<area shape="rect" id="node29" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btRigidBodyDoubleData *\&gt;" alt="" coords="1489,478,1717,519"/>
+<area shape="rect" id="node47" href="$structbtTypedConstraintDoubleData.html" title="btTypedConstraintDoubleData" alt="" coords="1504,347,1703,373"/>
+<area shape="rect" id="node31" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btRigidBodyDouble\lData *, 16 \&gt;" alt="" coords="1173,467,1355,523"/>
+<area shape="rect" id="node32" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btTypedConstraintFloat\lData *\&gt;" alt="" coords="1951,793,2157,849"/>
+<area shape="rect" id="node33" href="$structbtTypedConstraintFloatData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64 ..." alt="" coords="1510,808,1697,835"/>
+<area shape="rect" id="node40" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btRigidBodyFloatData *\&gt;" alt="" coords="1495,739,1711,781"/>
+<area shape="rect" id="node35" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btTypedConstraint\lFloatData *, 16 \&gt;" alt="" coords="1514,859,1693,915"/>
+<area shape="rect" id="node36" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btSoftBodyDoubleData *\&gt;" alt="" coords="1943,1330,2165,1371"/>
+<area shape="rect" id="node37" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btSoftBodyDoubleData\l *, 16 \&gt;" alt="" coords="1501,1355,1706,1411"/>
+<area shape="rect" id="node39" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btCollisionShapeData\l *, 16 \&gt;" alt="" coords="323,613,520,669"/>
+<area shape="rect" id="node41" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btRigidBodyFloatData\l *, 16 \&gt;" alt="" coords="1165,728,1363,784"/>
+<area shape="rect" id="node42" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btDynamicsWorldFloat\lData *\&gt;" alt="" coords="765,1172,969,1228"/>
+<area shape="rect" id="node43" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btDynamicsWorldFloat\lData *, 16 \&gt;" alt="" coords="319,1172,523,1228"/>
+<area shape="rect" id="node45" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btTypedConstraintDouble\lData *\&gt;" alt="" coords="1945,397,2163,453"/>
+<area shape="rect" id="node46" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btTypedConstraint\lDoubleData *, 16 \&gt;" alt="" coords="1514,397,1693,453"/>
+<area shape="rect" id="node48" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; struct btQuantizedBvhFloat\lData *\&gt;" alt="" coords="770,1288,963,1344"/>
+<area shape="rect" id="node50" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; struct btQuantizedBvhFloat\lData *, 16 \&gt;" alt="" coords="325,1353,518,1409"/>
+</map>

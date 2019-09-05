@@ -1,0 +1,33 @@
+<map id="MyInternalTriangleIndexCallback" name="MyInternalTriangleIndexCallback">
+<area shape="rect" id="node2" href="$classbtInternalTriangleIndexCallback.html" title="btInternalTriangleIndexCallback" alt="" coords="2776,384,2981,411"/>
+<area shape="rect" id="node3" href="$classbtCompoundShape.html" title="The btCompoundShape allows to store multiple other btCollisionShapes This allows for moving concave c..." alt="" coords="2468,320,2601,347"/>
+<area shape="rect" id="node4" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="1079,397,1199,424"/>
+<area shape="rect" id="node14" href="$structbtCompoundShapeChild.html" title="btCompoundShapeChild" alt="" coords="1422,332,1585,359"/>
+<area shape="rect" id="node19" href="$classbtConcaveShape.html" title="The btConcaveShape class provides an interface for non&#45;moving (static) concave shapes. " alt="" coords="1442,433,1565,460"/>
+<area shape="rect" id="node5" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="451,476,530,503"/>
+<area shape="rect" id="node10" href="$structbtDbvtAabbMm.html" title="btDbvtAabbMm" alt="" coords="747,248,861,275"/>
+<area shape="rect" id="node15" href="$classbtTransform.html" title="The btTransform class supports rigid transforms with only translation and rotation and no scaling/she..." alt="" coords="1093,347,1185,373"/>
+<area shape="rect" id="node16" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="759,411,849,437"/>
+<area shape="rect" id="node18" href="$classbtGImpactShapeInterface.html" title="Base class for gimpact shapes. " alt="" coords="1736,661,1907,688"/>
+<area shape="rect" id="node20" href="$classbtAABB.html" title="Axis aligned box. " alt="" coords="769,711,839,737"/>
+<area shape="rect" id="node23" href="$classbtQuantizedBvhTree.html" title="Basic Box tree structure. " alt="" coords="1069,783,1210,809"/>
+<area shape="rect" id="node28" href="$classbtStridingMeshInterface.html" title="The btStridingMeshInterface is the interface class for high performance generic access to triangle me..." alt="" coords="1059,476,1219,503"/>
+<area shape="rect" id="node31" href="$classbtGImpactMeshShapePart_1_1TrimeshPrimitiveManager.html" title="Trimesh primitive manager. " alt="" coords="1414,567,1593,609"/>
+<area shape="rect" id="node6" href="$structbtDbvt.html" title="The btDbvt class implements a fast dynamic bounding volume tree based on axis aligned bounding boxes ..." alt="" coords="2131,215,2193,241"/>
+<area shape="rect" id="node7" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btDbvt::sStkNN \&gt;" alt="" coords="1749,147,1894,189"/>
+<area shape="rect" id="node8" href="$structbtDbvt_1_1sStkNN.html" title="btDbvt::sStkNN" alt="" coords="1445,97,1561,124"/>
+<area shape="rect" id="node9" href="$structbtDbvtNode.html" title="btDbvtNode" alt="" coords="1093,220,1185,247"/>
+<area shape="rect" id="node11" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btDbvt::sStkNN, 16 \&gt;" alt="" coords="1422,149,1585,190"/>
+<area shape="rect" id="node12" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btCompoundShapeChild \&gt;" alt="" coords="1728,313,1915,354"/>
+<area shape="rect" id="node13" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btCompoundShapeChild, 16 \&gt;" alt="" coords="1399,266,1608,307"/>
+<area shape="rect" id="node17" href="$classbtGImpactMeshShape.html" title="This class manages a mesh supplied by the btStridingMeshInterface interface. " alt="" coords="2803,500,2955,527"/>
+<area shape="rect" id="node30" href="$classbtGImpactMeshShapePart.html" title="This class manages a sub part of a mesh supplied by the btStridingMeshInterface interface. " alt="" coords="2074,615,2250,641"/>
+<area shape="rect" id="node21" href="$classbtGImpactQuantizedBvh.html" title="Structure for containing Boxes. " alt="" coords="1421,761,1586,788"/>
+<area shape="rect" id="node22" href="$classbtPrimitiveManagerBase.html" title="Prototype Base class for primitive classification. " alt="" coords="1057,597,1221,624"/>
+<area shape="rect" id="node24" href="$classGIM__QUANTIZED__BVH__NODE__ARRAY.html" title="GIM_QUANTIZED_BVH_NODE\l_ARRAY" alt="" coords="697,851,911,893"/>
+<area shape="rect" id="node25" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; BT_QUANTIZED_BVH_NODE \&gt;" alt="" coords="376,851,605,893"/>
+<area shape="rect" id="node26" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; BT_QUANTIZED_BVH_NODE, 16 \&gt;" alt="" coords="5,822,256,863"/>
+<area shape="rect" id="node27" href="$structBT__QUANTIZED__BVH__NODE.html" title="btQuantizedBvhNode is a compressed aabb node, 16 bytes. " alt="" coords="28,888,233,915"/>
+<area shape="rect" id="node29" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btGImpactMeshShapePart *\&gt;" alt="" coords="2432,542,2637,583"/>
+<area shape="rect" id="node32" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btGImpactMeshShapePart\l *, 16 \&gt;" alt="" coords="2068,535,2256,591"/>
+</map>

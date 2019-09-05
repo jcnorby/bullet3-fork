@@ -1,0 +1,5 @@
+<map id="btPlaneShape" name="btPlaneShape">
+<area shape="rect" id="node2" href="$classbtStaticPlaneShape.html" title="The btStaticPlaneShape simulates an infinite non&#45;moving (static) collision plane. ..." alt="" coords="5,155,143,181"/>
+<area shape="rect" id="node3" href="$classbtConcaveShape.html" title="The btConcaveShape class provides an interface for non&#45;moving (static) concave shapes. " alt="" coords="13,80,135,107"/>
+<area shape="rect" id="node4" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="14,5,134,32"/>
+</map>

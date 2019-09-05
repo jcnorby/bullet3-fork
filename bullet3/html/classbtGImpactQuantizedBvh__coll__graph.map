@@ -1,0 +1,10 @@
+<map id="btGImpactQuantizedBvh" name="btGImpactQuantizedBvh">
+<area shape="rect" id="node2" href="$classbtPrimitiveManagerBase.html" title="Prototype Base class for primitive classification. " alt="" coords="5,332,169,359"/>
+<area shape="rect" id="node3" href="$classbtQuantizedBvhTree.html" title="Basic Box tree structure. " alt="" coords="194,332,335,359"/>
+<area shape="rect" id="node4" href="$classbtAABB.html" title="Axis aligned box. " alt="" coords="230,235,299,262"/>
+<area shape="rect" id="node5" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="131,117,209,143"/>
+<area shape="rect" id="node6" href="$classGIM__QUANTIZED__BVH__NODE__ARRAY.html" title="GIM_QUANTIZED_BVH_NODE\l_ARRAY" alt="" coords="323,228,537,269"/>
+<area shape="rect" id="node7" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; BT_QUANTIZED_BVH_NODE \&gt;" alt="" coords="315,109,545,151"/>
+<area shape="rect" id="node8" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; BT_QUANTIZED_BVH_NODE, 16 \&gt;" alt="" coords="179,5,430,47"/>
+<area shape="rect" id="node9" href="$structBT__QUANTIZED__BVH__NODE.html" title="btQuantizedBvhNode is a compressed aabb node, 16 bytes. " alt="" coords="454,13,659,39"/>
+</map>

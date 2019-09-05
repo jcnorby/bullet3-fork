@@ -1,0 +1,6 @@
+<map id="btCapsuleShapeX" name="btCapsuleShapeX">
+<area shape="rect" id="node2" href="$classbtCapsuleShape.html" title="The btCapsuleShape represents a capsule around the Y axis, there is also the btCapsuleShapeX aligned ..." alt="" coords="25,229,144,256"/>
+<area shape="rect" id="node3" href="$classbtConvexInternalShape.html" title="The btConvexInternalShape is an internal base class, shared by most convex shape implementations. " alt="" coords="5,155,164,181"/>
+<area shape="rect" id="node4" href="$classbtConvexShape.html" title="The btConvexShape is an abstract shape interface, implemented by all convex shapes such as btBoxShape..." alt="" coords="27,80,142,107"/>
+<area shape="rect" id="node5" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="25,5,145,32"/>
+</map>

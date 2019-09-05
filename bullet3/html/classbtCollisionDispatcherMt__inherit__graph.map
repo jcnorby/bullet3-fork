@@ -1,0 +1,4 @@
+<map id="btCollisionDispatcherMt" name="btCollisionDispatcherMt">
+<area shape="rect" id="node2" href="$classbtCollisionDispatcher.html" title="btCollisionDispatcher supports algorithms that handle ConvexConvex and ConvexConcave collision pairs..." alt="" coords="13,80,159,107"/>
+<area shape="rect" id="node3" href="$classbtDispatcher.html" title="The btDispatcher interface class can be used in combination with broadphase to dispatch calculations ..." alt="" coords="38,5,134,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="btGImpactShapeInterface" name="btGImpactShapeInterface">
+<area shape="rect" id="node4" href="$classbtGImpactCompoundShape.html" title="btGImpactCompoundShape allows to handle multiple btCollisionShape objects at once ..." alt="" coords="5,229,188,256"/>
+<area shape="rect" id="node5" href="$classbtGImpactMeshShape.html" title="This class manages a mesh supplied by the btStridingMeshInterface interface. " alt="" coords="213,229,365,256"/>
+<area shape="rect" id="node6" href="$classbtGImpactMeshShapePart.html" title="This class manages a sub part of a mesh supplied by the btStridingMeshInterface interface. " alt="" coords="389,229,565,256"/>
+<area shape="rect" id="node2" href="$classbtConcaveShape.html" title="The btConcaveShape class provides an interface for non&#45;moving (static) concave shapes. " alt="" coords="227,80,350,107"/>
+<area shape="rect" id="node3" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="229,5,349,32"/>
+</map>

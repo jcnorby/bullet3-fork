@@ -1,0 +1,9 @@
+<map id="btSoftBodySolvers.h" name="btSoftBodySolvers.h">
+<area shape="rect" id="node2" href="$btDefaultSoftBodySolver_8h.html" title="btDefaultSoftBodySolver.h" alt="" coords="269,80,447,107"/>
+<area shape="rect" id="node4" href="$btSoftMultiBodyDynamicsWorld_8cpp.html" title="btSoftMultiBodyDynamicsWorld.cpp" alt="" coords="5,155,239,181"/>
+<area shape="rect" id="node5" href="$btSoftRigidDynamicsWorld_8cpp.html" title="btSoftRigidDynamicsWorld.cpp" alt="" coords="478,155,683,181"/>
+<area shape="rect" id="node6" href="$btSoftBody_8cpp.html" title="btSoftBody.cpp" alt="" coords="522,80,634,107"/>
+<area shape="rect" id="node7" href="$btSoftRigidCollisionAlgorithm_8cpp.html" title="btSoftRigidCollisionAlgorithm.cpp" alt="" coords="659,80,876,107"/>
+<area shape="rect" id="node8" href="$btSoftSoftCollisionAlgorithm_8cpp.html" title="btSoftSoftCollisionAlgorithm.cpp" alt="" coords="901,80,1111,107"/>
+<area shape="rect" id="node3" href="$btDefaultSoftBodySolver_8cpp.html" title="btDefaultSoftBodySolver.cpp" alt="" coords="263,155,453,181"/>
+</map>

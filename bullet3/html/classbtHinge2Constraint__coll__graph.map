@@ -1,0 +1,21 @@
+<map id="btHinge2Constraint" name="btHinge2Constraint">
+<area shape="rect" id="node2" href="$classbtGeneric6DofSpring2Constraint.html" title="btGeneric6DofSpring2Constraint" alt="" coords="1015,245,1225,272"/>
+<area shape="rect" id="node3" href="$classbtTypedConstraint.html" title="TypedConstraint is the baseclass for Bullet constraints and vehicles. " alt="" coords="641,357,770,384"/>
+<area shape="rect" id="node15" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btTypedConstraint *\&gt;" alt="" coords="1041,486,1199,527"/>
+<area shape="rect" id="node4" href="$structbtTypedObject.html" title="rudimentary class to provide type info " alt="" coords="281,416,387,443"/>
+<area shape="rect" id="node5" href="$structbtJointFeedback.html" title="btJointFeedback" alt="" coords="275,500,393,527"/>
+<area shape="rect" id="node6" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="5,553,84,580"/>
+<area shape="rect" id="node7" href="$classbtRigidBody.html" title="The btRigidBody is the main class for rigid body objects. " alt="" coords="1480,527,1573,553"/>
+<area shape="rect" id="node8" href="$classbtCollisionObject.html" title="btCollisionObject can be used to manage collision detection objects. " alt="" coords="1059,872,1181,899"/>
+<area shape="rect" id="node12" href="$classbtTransform.html" title="The btTransform class supports rigid transforms with only translation and rotation and no scaling/she..." alt="" coords="659,699,751,725"/>
+<area shape="rect" id="node13" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="289,733,379,760"/>
+<area shape="rect" id="node14" href="$structbtBroadphaseProxy.html" title="The btBroadphaseProxy is the main class that can be used with the Bullet broadphases. " alt="" coords="441,797,577,824"/>
+<area shape="rect" id="node19" href="$classbtJacobianEntry.html" title="Jacobian entry is an abstraction that allows to describe constraints it can be used in combination wi..." alt="" coords="451,156,567,183"/>
+<area shape="rect" id="node20" href="$classbtTranslationalLimitMotor2.html" title="btTranslationalLimitMotor2" alt="" coords="422,255,597,281"/>
+<area shape="rect" id="node9" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; const btCollisionObject *\&gt;" alt="" coords="1433,871,1620,913"/>
+<area shape="rect" id="node10" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; const btCollisionObject\l *, 16 \&gt;" alt="" coords="1035,792,1205,848"/>
+<area shape="rect" id="node11" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="645,864,765,891"/>
+<area shape="rect" id="node16" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btTypedConstraint\l *, 16 \&gt;" alt="" coords="635,408,776,464"/>
+<area shape="rect" id="node17" href="$classbtMotionState.html" title="The btMotionState interface class allows the dynamics world to synchronize and interpolate the update..." alt="" coords="1069,435,1171,461"/>
+<area shape="rect" id="node18" href="$classbtRotationalLimitMotor2.html" title="btRotationalLimitMotor2" alt="" coords="625,116,785,143"/>
+</map>

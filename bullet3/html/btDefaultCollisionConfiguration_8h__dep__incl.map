@@ -1,0 +1,11 @@
+<map id="btDefaultCollisionConfiguration.h" name="btDefaultCollisionConfiguration.h">
+<area shape="rect" id="node2" href="$btDefaultCollisionConfiguration_8cpp.html" title="btDefaultCollisionConfiguration.cpp" alt="" coords="5,87,232,114"/>
+<area shape="rect" id="node3" href="$btSoftBodyRigidBodyCollisionConfiguration_8h.html" title="btSoftBodyRigidBodyCollision\lConfiguration.h" alt="" coords="256,80,453,121"/>
+<area shape="rect" id="node5" href="$btBulletCollisionCommon_8h.html" title="btBulletCollisionCommon.h" alt="" coords="481,87,661,114"/>
+<area shape="rect" id="node4" href="$btSoftBodyRigidBodyCollisionConfiguration_8cpp.html" title="btSoftBodyRigidBodyCollision\lConfiguration.cpp" alt="" coords="253,169,451,211"/>
+<area shape="rect" id="node6" href="$btCollisionWorldImporter_8cpp.html" title="btCollisionWorldImporter.cpp" alt="" coords="475,177,666,203"/>
+<area shape="rect" id="node7" href="$btBulletDynamicsCommon_8h.html" title="btBulletDynamicsCommon.h" alt="" coords="691,177,880,203"/>
+<area shape="rect" id="node8" href="$btBulletWorldImporter_8cpp.html" title="btBulletWorldImporter.cpp" alt="" coords="488,259,661,285"/>
+<area shape="rect" id="node9" href="$btMultiBodyWorldImporter_8cpp.html" title="btMultiBodyWorldImporter.cpp" alt="" coords="686,259,885,285"/>
+<area shape="rect" id="node10" href="$btWorldImporter_8cpp.html" title="btWorldImporter.cpp" alt="" coords="909,259,1049,285"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="btPairCachingGhostObject" name="btPairCachingGhostObject">
+<area shape="rect" id="node2" href="$classbtGhostObject.html" title="The btGhostObject can keep track of all objects that are overlapping By default, this overlap is base..." alt="" coords="41,80,147,107"/>
+<area shape="rect" id="node3" href="$classbtCollisionObject.html" title="btCollisionObject can be used to manage collision detection objects. " alt="" coords="33,5,155,32"/>
+</map>

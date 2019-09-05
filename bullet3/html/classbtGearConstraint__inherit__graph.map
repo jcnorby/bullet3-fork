@@ -1,0 +1,4 @@
+<map id="btGearConstraint" name="btGearConstraint">
+<area shape="rect" id="node2" href="$classbtTypedConstraint.html" title="TypedConstraint is the baseclass for Bullet constraints and vehicles. " alt="" coords="5,80,135,107"/>
+<area shape="rect" id="node3" href="$structbtTypedObject.html" title="rudimentary class to provide type info " alt="" coords="17,5,123,32"/>
+</map>

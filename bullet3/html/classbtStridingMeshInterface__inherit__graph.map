@@ -1,0 +1,5 @@
+<map id="btStridingMeshInterface" name="btStridingMeshInterface">
+<area shape="rect" id="node2" href="$classbtTriangleIndexVertexArray.html" title="The btTriangleIndexVertexArray allows to access multiple triangle meshes, by indexing into existing t..." alt="" coords="101,80,281,107"/>
+<area shape="rect" id="node3" href="$classbtTriangleIndexVertexMaterialArray.html" title="Teh btTriangleIndexVertexMaterialArray is built on TriangleIndexVertexArray The addition of a materia..." alt="" coords="5,155,200,196"/>
+<area shape="rect" id="node4" href="$classbtTriangleMesh.html" title="The btTriangleMesh class is a convenience class derived from btTriangleIndexVertexArray, that provides storage for a concave triangle mesh. " alt="" coords="225,162,335,189"/>
+</map>

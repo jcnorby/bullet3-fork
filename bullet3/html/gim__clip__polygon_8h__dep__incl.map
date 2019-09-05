@@ -1,0 +1,9 @@
+<map id="gim_clip_polygon.h" name="gim_clip_polygon.h">
+<area shape="rect" id="node2" href="$gim__tri__collision_8h.html" title="gim_tri_collision.h" alt="" coords="176,80,303,107"/>
+<area shape="rect" id="node5" href="$gim__geometry_8h.html" title="gim_geometry.h" alt="" coords="309,155,423,181"/>
+<area shape="rect" id="node3" href="$gim__box__set_8h.html" title="gim_box_set.h" alt="" coords="13,155,119,181"/>
+<area shape="rect" id="node8" href="$gim__tri__collision_8cpp.html" title="gim_tri_collision.cpp" alt="" coords="144,155,284,181"/>
+<area shape="rect" id="node4" href="$gim__box__set_8cpp.html" title="gim_box_set.cpp" alt="" coords="5,229,127,256"/>
+<area shape="rect" id="node6" href="$gim__contact_8h.html" title="gim_contact.h" alt="" coords="314,229,418,256"/>
+<area shape="rect" id="node7" href="$gim__contact_8cpp.html" title="gim_contact.cpp" alt="" coords="307,304,425,331"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="btGImpactMeshShapePart" name="btGImpactMeshShapePart">
+<area shape="rect" id="node2" href="$classbtGImpactShapeInterface.html" title="Base class for gimpact shapes. " alt="" coords="8,155,179,181"/>
+<area shape="rect" id="node3" href="$classbtConcaveShape.html" title="The btConcaveShape class provides an interface for non&#45;moving (static) concave shapes. " alt="" coords="32,80,155,107"/>
+<area shape="rect" id="node4" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="33,5,153,32"/>
+</map>

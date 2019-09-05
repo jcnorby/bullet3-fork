@@ -1,0 +1,10 @@
+<map id="btSoftBody::SContact" name="btSoftBody::SContact">
+<area shape="rect" id="node2" href="$structbtSoftBody_1_1Face.html" title="btSoftBody::Face" alt="" coords="323,453,447,480"/>
+<area shape="rect" id="node3" href="$structbtSoftBody_1_1Feature.html" title="btSoftBody::Feature" alt="" coords="69,259,207,285"/>
+<area shape="rect" id="node7" href="$structbtSoftBody_1_1Node.html" title="btSoftBody::Node" alt="" coords="321,364,448,391"/>
+<area shape="rect" id="node4" href="$structbtSoftBody_1_1Element.html" title="btSoftBody::Element" alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node5" href="$structbtSoftBody_1_1Material.html" title="btSoftBody::Material" alt="" coords="78,109,219,136"/>
+<area shape="rect" id="node6" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="416,5,495,32"/>
+<area shape="rect" id="node9" href="$structbtDbvtAabbMm.html" title="btDbvtAabbMm" alt="" coords="264,109,377,136"/>
+<area shape="rect" id="node8" href="$structbtDbvtNode.html" title="btDbvtNode" alt="" coords="232,259,324,285"/>
+</map>

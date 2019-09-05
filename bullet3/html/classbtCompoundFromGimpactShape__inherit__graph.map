@@ -1,0 +1,4 @@
+<map id="btCompoundFromGimpactShape" name="btCompoundFromGimpactShape">
+<area shape="rect" id="node2" href="$classbtCompoundShape.html" title="The btCompoundShape allows to store multiple other btCollisionShapes This allows for moving concave c..." alt="" coords="45,80,178,107"/>
+<area shape="rect" id="node3" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="51,5,171,32"/>
+</map>

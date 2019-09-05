@@ -1,0 +1,5 @@
+<map id="btCompoundCompoundCollisionAlgorithm" name="btCompoundCompoundCollisionAlgorithm">
+<area shape="rect" id="node2" href="$classbtCompoundCollisionAlgorithm.html" title="btCompoundCollisionAlgorithm supports collision between CompoundCollisionShapes and other collision s..." alt="" coords="9,155,211,181"/>
+<area shape="rect" id="node3" href="$classbtActivatingCollisionAlgorithm.html" title="This class is not enabled yet (work&#45;in&#45;progress) to more aggressively activate objects. " alt="" coords="12,80,208,107"/>
+<area shape="rect" id="node4" href="$classbtCollisionAlgorithm.html" title="btCollisionAlgorithm is an collision interface that is compatible with the Broadphase and btDispatche..." alt="" coords="41,5,179,32"/>
+</map>

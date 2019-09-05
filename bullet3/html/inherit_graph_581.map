@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classbtStridingMeshInterface.html" title="The btStridingMeshInterface is the interface class for high performance generic access to triangle me..." alt="" coords="5,42,165,69"/>
+<area shape="rect" id="node2" href="$classbtTriangleIndexVertexArray.html" title="The btTriangleIndexVertexArray allows to access multiple triangle meshes, by indexing into existing t..." alt="" coords="213,42,393,69"/>
+<area shape="rect" id="node3" href="$classbtTriangleIndexVertexMaterialArray.html" title="Teh btTriangleIndexVertexMaterialArray is built on TriangleIndexVertexArray The addition of a materia..." alt="" coords="441,5,636,47"/>
+<area shape="rect" id="node4" href="$classbtTriangleMesh.html" title="The btTriangleMesh class is a convenience class derived from btTriangleIndexVertexArray, that provides storage for a concave triangle mesh. " alt="" coords="483,71,594,98"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classbtSimulationIslandManager.html" title="SimulationIslandManager creates and handles simulation islands, using btUnionFind. " alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node2" href="$classbtSimulationIslandManagerMt.html" title="SimulationIslandManagerMt – Multithread capable version of SimulationIslandManager Splits the world ..." alt="" coords="232,5,427,32"/>
+</map>

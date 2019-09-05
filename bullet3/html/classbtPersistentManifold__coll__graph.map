@@ -1,0 +1,12 @@
+<map id="btPersistentManifold" name="btPersistentManifold">
+<area shape="rect" id="node2" href="$structbtTypedObject.html" title="rudimentary class to provide type info " alt="" coords="955,59,1062,85"/>
+<area shape="rect" id="node3" href="$classbtCollisionObject.html" title="btCollisionObject can be used to manage collision detection objects. " alt="" coords="948,236,1069,263"/>
+<area shape="rect" id="node4" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; const btCollisionObject *\&gt;" alt="" coords="1301,271,1488,313"/>
+<area shape="rect" id="node5" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; const btCollisionObject\l *, 16 \&gt;" alt="" coords="924,309,1093,365"/>
+<area shape="rect" id="node6" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="5,236,84,263"/>
+<area shape="rect" id="node8" href="$classbtTransform.html" title="The btTransform class supports rigid transforms with only translation and rotation and no scaling/she..." alt="" coords="583,236,675,263"/>
+<area shape="rect" id="node9" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="225,297,315,324"/>
+<area shape="rect" id="node10" href="$structbtBroadphaseProxy.html" title="The btBroadphaseProxy is the main class that can be used with the Bullet broadphases. " alt="" coords="380,331,516,357"/>
+<area shape="rect" id="node11" href="$classbtManifoldPoint.html" title="ManifoldContactPoint collects and maintains persistent contactpoints. " alt="" coords="753,108,865,135"/>
+<area shape="rect" id="node7" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="569,349,689,376"/>
+</map>

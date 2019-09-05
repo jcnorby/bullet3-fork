@@ -1,0 +1,35 @@
+<map id="btDefaultSerializer" name="btDefaultSerializer">
+<area shape="rect" id="node2" href="$classbtSerializer.html" title="btSerializer" alt="" coords="595,172,682,199"/>
+<area shape="rect" id="node3" href="$classbtHashMap.html" title="btHashMap\&lt; btHashPtr,\l const char *\&gt;" alt="" coords="557,670,721,711"/>
+<area shape="rect" id="node4" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btHashPtr \&gt;" alt="" coords="269,631,415,673"/>
+<area shape="rect" id="node24" href="$classbtHashMap.html" title="btHashMap\&lt; btHashPtr,\l btPointerUid \&gt;" alt="" coords="557,593,721,634"/>
+<area shape="rect" id="node28" href="$classbtHashMap.html" title="btHashMap\&lt; btHashPtr,\l void *\&gt;" alt="" coords="557,446,721,487"/>
+<area shape="rect" id="node5" href="$classbtHashPtr.html" title="btHashPtr" alt="" coords="37,671,118,697"/>
+<area shape="rect" id="node6" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btHashPtr, 16 \&gt;" alt="" coords="14,605,141,646"/>
+<area shape="rect" id="node7" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; int \&gt;" alt="" coords="269,375,415,417"/>
+<area shape="rect" id="node16" href="$classbtHashMap.html" title="btHashMap\&lt; btHashString,\l int \&gt;" alt="" coords="548,223,729,265"/>
+<area shape="rect" id="node20" href="$classbtHashMap.html" title="btHashMap\&lt; btHashInt,\l int \&gt;" alt="" coords="557,315,720,357"/>
+<area shape="rect" id="node8" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; int, 16 \&gt;" alt="" coords="14,375,141,417"/>
+<area shape="rect" id="node9" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; const char *\&gt;" alt="" coords="269,702,415,743"/>
+<area shape="rect" id="node10" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; const char *, 16 \&gt;" alt="" coords="8,722,147,763"/>
+<area shape="rect" id="node11" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; char *\&gt;" alt="" coords="566,761,711,802"/>
+<area shape="rect" id="node12" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; char *, 16 \&gt;" alt="" coords="279,767,405,809"/>
+<area shape="rect" id="node13" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btChunk *\&gt;" alt="" coords="566,833,711,874"/>
+<area shape="rect" id="node14" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btChunk *, 16 \&gt;" alt="" coords="279,833,405,874"/>
+<area shape="rect" id="node15" href="$classbtChunk.html" title="btChunk" alt="" coords="307,899,377,925"/>
+<area shape="rect" id="node17" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btHashString \&gt;" alt="" coords="269,57,415,98"/>
+<area shape="rect" id="node18" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btHashString, 16 \&gt;" alt="" coords="5,57,149,98"/>
+<area shape="rect" id="node19" href="$structbtHashString.html" title="very basic hashable string implementation, compatible with btHashMap " alt="" coords="28,5,127,32"/>
+<area shape="rect" id="node21" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btHashInt \&gt;" alt="" coords="269,122,415,163"/>
+<area shape="rect" id="node22" href="$classbtHashInt.html" title="btHashInt" alt="" coords="38,188,117,215"/>
+<area shape="rect" id="node23" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btHashInt, 16 \&gt;" alt="" coords="14,122,141,163"/>
+<area shape="rect" id="node25" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btPointerUid \&gt;" alt="" coords="269,546,415,587"/>
+<area shape="rect" id="node26" href="$structbtPointerUid.html" title="btPointerUid" alt="" coords="30,553,125,580"/>
+<area shape="rect" id="node27" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btPointerUid, 16 \&gt;" alt="" coords="7,487,147,529"/>
+<area shape="rect" id="node29" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; void *\&gt;" alt="" coords="269,241,415,282"/>
+<area shape="rect" id="node30" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; void *, 16 \&gt;" alt="" coords="14,241,141,282"/>
+<area shape="rect" id="node31" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; short \&gt;" alt="" coords="566,911,711,953"/>
+<area shape="rect" id="node32" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; short, 16 \&gt;" alt="" coords="279,950,405,991"/>
+<area shape="rect" id="node33" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; short *\&gt;" alt="" coords="566,1002,711,1043"/>
+<area shape="rect" id="node34" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; short *, 16 \&gt;" alt="" coords="279,1015,405,1057"/>
+</map>

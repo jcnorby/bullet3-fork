@@ -1,0 +1,35 @@
+<map id="btKinematicCharacterController" name="btKinematicCharacterController">
+<area shape="rect" id="node2" href="$classbtCharacterControllerInterface.html" title="btCharacterControllerInterface" alt="" coords="2084,73,2281,100"/>
+<area shape="rect" id="node3" href="$classbtActionInterface.html" title="Basic interface to allow actions such as vehicles and characters to be updated inside a btDynamicsWor..." alt="" coords="1759,73,1881,100"/>
+<area shape="rect" id="node4" href="$classbtConvexShape.html" title="The btConvexShape is an abstract shape interface, implemented by all convex shapes such as btBoxShape..." alt="" coords="1175,176,1289,203"/>
+<area shape="rect" id="node5" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="593,196,713,223"/>
+<area shape="rect" id="node11" href="$classbtCollisionObject.html" title="btCollisionObject can be used to manage collision detection objects. " alt="" coords="979,548,1101,575"/>
+<area shape="rect" id="node6" href="$classbtQuaternion.html" title="The btQuaternion implements quaternion to perform linear algebra rotations in combination with btMatr..." alt="" coords="2135,624,2231,651"/>
+<area shape="rect" id="node7" href="$classbtQuadWord.html" title="The btQuadWord class is base class for btVector3 and btQuaternion. " alt="" coords="1773,745,1867,772"/>
+<area shape="rect" id="node8" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="5,549,84,576"/>
+<area shape="rect" id="node14" href="$classbtTransform.html" title="The btTransform class supports rigid transforms with only translation and rotation and no scaling/she..." alt="" coords="607,575,699,601"/>
+<area shape="rect" id="node15" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="259,636,349,663"/>
+<area shape="rect" id="node16" href="$structbtBroadphaseProxy.html" title="The btBroadphaseProxy is the main class that can be used with the Bullet broadphases. " alt="" coords="585,444,721,471"/>
+<area shape="rect" id="node34" href="$classbtManifoldPoint.html" title="ManifoldContactPoint collects and maintains persistent contactpoints. " alt="" coords="412,784,524,811"/>
+<area shape="rect" id="node9" href="$classbtPairCachingGhostObject.html" title="btPairCachingGhostObject" alt="" coords="2094,363,2271,389"/>
+<area shape="rect" id="node10" href="$classbtGhostObject.html" title="The btGhostObject can keep track of all objects that are overlapping By default, this overlap is base..." alt="" coords="1767,592,1873,619"/>
+<area shape="rect" id="node12" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; const btCollisionObject *\&gt;" alt="" coords="1336,475,1523,517"/>
+<area shape="rect" id="node17" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btCollisionObject *\&gt;" alt="" coords="1354,643,1505,685"/>
+<area shape="rect" id="node32" href="$classbtPersistentManifold.html" title="btPersistentManifold is a contact point cache, it stays persistent as long as objects are overlapping..." alt="" coords="1359,789,1500,816"/>
+<area shape="rect" id="node13" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; const btCollisionObject\l *, 16 \&gt;" alt="" coords="955,459,1125,515"/>
+<area shape="rect" id="node26" href="$structbtBroadphasePair.html" title="The btBroadphasePair class contains a pair of aabb&#45;overlapping objects. " alt="" coords="977,225,1103,252"/>
+<area shape="rect" id="node18" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btCollisionObject\l *, 16 \&gt;" alt="" coords="973,709,1107,765"/>
+<area shape="rect" id="node19" href="$classbtHashedOverlappingPairCache.html" title="Hash&#45;space based Pair Cache, thanks to Erin Catto, Box2D, http://www.box2d.org, and Pierre Terdiman..." alt="" coords="1716,363,1924,389"/>
+<area shape="rect" id="node20" href="$classbtOverlappingPairCache.html" title="The btOverlappingPairCache provides an interface for overlapping pair management (add, remove, storage), used by the btBroadphaseInterface broadphases. " alt="" coords="1348,424,1511,451"/>
+<area shape="rect" id="node21" href="$classbtOverlappingPairCallback.html" title="The btOverlappingPairCallback class is an additional optional broadphase user callback for adding/rem..." alt="" coords="952,408,1128,435"/>
+<area shape="rect" id="node22" href="$structbtOverlapFilterCallback.html" title="btOverlapFilterCallback" alt="" coords="1350,541,1509,568"/>
+<area shape="rect" id="node23" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; int \&gt;" alt="" coords="1357,295,1502,337"/>
+<area shape="rect" id="node24" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; int, 16 \&gt;" alt="" coords="977,342,1103,383"/>
+<area shape="rect" id="node25" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btBroadphasePair \&gt;" alt="" coords="1355,230,1504,271"/>
+<area shape="rect" id="node27" href="$classbtCollisionAlgorithm.html" title="btCollisionAlgorithm is an collision interface that is compatible with the Broadphase and btDispatche..." alt="" coords="584,269,723,296"/>
+<area shape="rect" id="node28" href="$classbtDispatcher.html" title="The btDispatcher interface class can be used in combination with broadphase to dispatch calculations ..." alt="" coords="256,269,352,296"/>
+<area shape="rect" id="node29" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btBroadphasePair, 16 \&gt;" alt="" coords="955,277,1125,318"/>
+<area shape="rect" id="node30" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btPersistentManifold * \&gt;" alt="" coords="1733,679,1907,721"/>
+<area shape="rect" id="node31" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btPersistentManifold\l *, 16 \&gt;" alt="" coords="1353,709,1506,765"/>
+<area shape="rect" id="node33" href="$structbtTypedObject.html" title="rudimentary class to provide type info " alt="" coords="987,840,1093,867"/>
+</map>

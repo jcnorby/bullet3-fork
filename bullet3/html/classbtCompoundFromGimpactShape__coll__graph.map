@@ -1,0 +1,16 @@
+<map id="btCompoundFromGimpactShape" name="btCompoundFromGimpactShape">
+<area shape="rect" id="node2" href="$classbtCompoundShape.html" title="The btCompoundShape allows to store multiple other btCollisionShapes This allows for moving concave c..." alt="" coords="1517,124,1651,151"/>
+<area shape="rect" id="node3" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="380,104,500,131"/>
+<area shape="rect" id="node13" href="$structbtCompoundShapeChild.html" title="btCompoundShapeChild" alt="" coords="658,148,821,175"/>
+<area shape="rect" id="node4" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="5,140,84,167"/>
+<area shape="rect" id="node9" href="$structbtDbvtAabbMm.html" title="btDbvtAabbMm" alt="" coords="165,236,279,263"/>
+<area shape="rect" id="node14" href="$classbtTransform.html" title="The btTransform class supports rigid transforms with only translation and rotation and no scaling/she..." alt="" coords="394,163,486,189"/>
+<area shape="rect" id="node15" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="177,179,267,205"/>
+<area shape="rect" id="node5" href="$structbtDbvt.html" title="The btDbvt class implements a fast dynamic bounding volume tree based on axis aligned bounding boxes ..." alt="" coords="1277,267,1338,293"/>
+<area shape="rect" id="node6" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btDbvt::sStkNN \&gt;" alt="" coords="985,318,1130,359"/>
+<area shape="rect" id="node7" href="$structbtDbvt_1_1sStkNN.html" title="btDbvt::sStkNN" alt="" coords="681,317,797,344"/>
+<area shape="rect" id="node8" href="$structbtDbvtNode.html" title="btDbvtNode" alt="" coords="394,267,486,293"/>
+<area shape="rect" id="node10" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btDbvt::sStkNN, 16 \&gt;" alt="" coords="658,369,821,410"/>
+<area shape="rect" id="node11" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btCompoundShapeChild \&gt;" alt="" coords="964,149,1151,190"/>
+<area shape="rect" id="node12" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btCompoundShapeChild, 16 \&gt;" alt="" coords="635,199,844,241"/>
+</map>

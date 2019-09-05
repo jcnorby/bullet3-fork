@@ -1,0 +1,7 @@
+<map id="btRigidBody::btRigidBodyConstructionInfo" name="btRigidBody::btRigidBodyConstructionInfo">
+<area shape="rect" id="node2" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="59,5,138,32"/>
+<area shape="rect" id="node4" href="$classbtTransform.html" title="The btTransform class supports rigid transforms with only translation and rotation and no scaling/she..." alt="" coords="53,184,145,211"/>
+<area shape="rect" id="node5" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="176,95,267,121"/>
+<area shape="rect" id="node3" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="189,184,309,211"/>
+<area shape="rect" id="node6" href="$classbtMotionState.html" title="The btMotionState interface class allows the dynamics world to synchronize and interpolate the update..." alt="" coords="335,184,438,211"/>
+</map>

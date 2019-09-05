@@ -1,0 +1,13 @@
+<map id="btGeneric6DofConstraint.h" name="btGeneric6DofConstraint.h">
+<area shape="rect" id="node2" href="$btGeneric6DofConstraint_8cpp.html" title="btGeneric6DofConstraint.cpp" alt="" coords="5,80,196,107"/>
+<area shape="rect" id="node3" href="$btGeneric6DofSpringConstraint_8h.html" title="btGeneric6DofSpringConstraint.h" alt="" coords="220,80,435,107"/>
+<area shape="rect" id="node5" href="$btBulletDynamicsCommon_8h.html" title="btBulletDynamicsCommon.h" alt="" coords="378,155,567,181"/>
+<area shape="rect" id="node9" href="$btUniversalConstraint_8h.html" title="btUniversalConstraint.h" alt="" coords="511,80,669,107"/>
+<area shape="rect" id="node11" href="$btDiscreteDynamicsWorld_8cpp.html" title="btDiscreteDynamicsWorld.cpp" alt="" coords="694,80,894,107"/>
+<area shape="rect" id="node12" href="$btDiscreteDynamicsWorldMt_8cpp.html" title="btDiscreteDynamicsWorldMt.cpp" alt="" coords="919,80,1133,107"/>
+<area shape="rect" id="node4" href="$btGeneric6DofSpringConstraint_8cpp.html" title="btGeneric6DofSpringConstraint.cpp" alt="" coords="125,155,353,181"/>
+<area shape="rect" id="node6" href="$btBulletWorldImporter_8cpp.html" title="btBulletWorldImporter.cpp" alt="" coords="175,229,349,256"/>
+<area shape="rect" id="node7" href="$btMultiBodyWorldImporter_8cpp.html" title="btMultiBodyWorldImporter.cpp" alt="" coords="373,229,572,256"/>
+<area shape="rect" id="node8" href="$btWorldImporter_8cpp.html" title="btWorldImporter.cpp" alt="" coords="596,229,736,256"/>
+<area shape="rect" id="node10" href="$btUniversalConstraint_8cpp.html" title="btUniversalConstraint.cpp" alt="" coords="591,155,765,181"/>
+</map>

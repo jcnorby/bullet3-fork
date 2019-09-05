@@ -1,0 +1,8 @@
+<map id="btMultiBodyLinkDoubleData" name="btMultiBodyLinkDoubleData">
+<area shape="rect" id="node2" href="$structbtCollisionObjectDoubleData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64 ..." alt="" coords="191,423,382,449"/>
+<area shape="rect" id="node3" href="$structbtCollisionShapeData.html" title="do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64 ..." alt="" coords="515,266,663,293"/>
+<area shape="rect" id="node4" href="$structbtTransformDoubleData.html" title="btTransformDoubleData" alt="" coords="330,266,491,293"/>
+<area shape="rect" id="node5" href="$structbtVector3DoubleData.html" title="btVector3DoubleData" alt="" coords="261,5,408,32"/>
+<area shape="rect" id="node6" href="$structbtMatrix3x3DoubleData.html" title="for serialization " alt="" coords="515,95,674,121"/>
+<area shape="rect" id="node7" href="$structbtQuaternionDoubleData.html" title="btQuaternionDoubleData" alt="" coords="407,423,572,449"/>
+</map>

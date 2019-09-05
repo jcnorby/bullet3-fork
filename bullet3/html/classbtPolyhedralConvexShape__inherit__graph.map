@@ -1,0 +1,15 @@
+<map id="btPolyhedralConvexShape" name="btPolyhedralConvexShape">
+<area shape="rect" id="node5" href="$classbtBox2dShape.html" title="The btBox2dShape is a box primitive around the origin, its sides axis aligned with length specified b..." alt="" coords="822,5,929,32"/>
+<area shape="rect" id="node6" href="$classbtBoxShape.html" title="The btBoxShape is a box primitive around the origin, its sides axis aligned with length specified by ..." alt="" coords="829,56,922,83"/>
+<area shape="rect" id="node7" href="$classbtPolyhedralConvexAabbCachingShape.html" title="The btPolyhedralConvexAabbCachingShape adds aabb caching to the btPolyhedralConvexShape. " alt="" coords="767,107,984,149"/>
+<area shape="rect" id="node13" href="$classbtTriangleShape.html" title="btTriangleShape" alt="" coords="817,195,933,221"/>
+<area shape="rect" id="node2" href="$classbtConvexInternalShape.html" title="The btConvexInternalShape is an internal base class, shared by most convex shape implementations. " alt="" coords="336,85,495,112"/>
+<area shape="rect" id="node3" href="$classbtConvexShape.html" title="The btConvexShape is an abstract shape interface, implemented by all convex shapes such as btBoxShape..." alt="" coords="173,85,288,112"/>
+<area shape="rect" id="node4" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="5,85,125,112"/>
+<area shape="rect" id="node8" href="$classbtBU__Simplex1to4.html" title="The btBU_Simplex1to4 implements tetrahedron, triangle, line, vertex collision shapes. In most cases it is better to use btConvexHullShape instead. " alt="" coords="1063,13,1194,40"/>
+<area shape="rect" id="node10" href="$classbtConvexHullShape.html" title="The btConvexHullShape implements an implicit convex hull of an array of vertices. ..." alt="" coords="1059,64,1198,91"/>
+<area shape="rect" id="node11" href="$classbtConvexPointCloudShape.html" title="The btConvexPointCloudShape implements an implicit convex hull of an array of vertices. " alt="" coords="1039,115,1218,141"/>
+<area shape="rect" id="node12" href="$classbtConvexTriangleMeshShape.html" title="The btConvexTriangleMeshShape is a convex hull of a triangle mesh, but the performance is not as good..." alt="" coords="1032,165,1225,192"/>
+<area shape="rect" id="node9" href="$classbtTetrahedronShapeEx.html" title="Helper class for tetrahedrons. " alt="" coords="1273,13,1428,40"/>
+<area shape="rect" id="node14" href="$classbtTriangleShapeEx.html" title="Helper class for colliding Bullet Triangle Shapes. " alt="" coords="1063,216,1195,243"/>
+</map>

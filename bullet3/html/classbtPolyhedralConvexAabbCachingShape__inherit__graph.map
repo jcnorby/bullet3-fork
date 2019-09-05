@@ -1,0 +1,11 @@
+<map id="btPolyhedralConvexAabbCachingShape" name="btPolyhedralConvexAabbCachingShape">
+<area shape="rect" id="node6" href="$classbtBU__Simplex1to4.html" title="The btBU_Simplex1to4 implements tetrahedron, triangle, line, vertex collision shapes. In most cases it is better to use btConvexHullShape instead. " alt="" coords="1063,5,1194,32"/>
+<area shape="rect" id="node8" href="$classbtConvexHullShape.html" title="The btConvexHullShape implements an implicit convex hull of an array of vertices. ..." alt="" coords="1059,56,1198,83"/>
+<area shape="rect" id="node9" href="$classbtConvexPointCloudShape.html" title="The btConvexPointCloudShape implements an implicit convex hull of an array of vertices. " alt="" coords="1039,107,1218,133"/>
+<area shape="rect" id="node10" href="$classbtConvexTriangleMeshShape.html" title="The btConvexTriangleMeshShape is a convex hull of a triangle mesh, but the performance is not as good..." alt="" coords="1032,157,1225,184"/>
+<area shape="rect" id="node2" href="$classbtPolyhedralConvexShape.html" title="The btPolyhedralConvexShape is an internal interface class for polyhedral convex shapes. " alt="" coords="543,81,719,108"/>
+<area shape="rect" id="node3" href="$classbtConvexInternalShape.html" title="The btConvexInternalShape is an internal base class, shared by most convex shape implementations. " alt="" coords="336,81,495,108"/>
+<area shape="rect" id="node4" href="$classbtConvexShape.html" title="The btConvexShape is an abstract shape interface, implemented by all convex shapes such as btBoxShape..." alt="" coords="173,81,288,108"/>
+<area shape="rect" id="node5" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="5,81,125,108"/>
+<area shape="rect" id="node7" href="$classbtTetrahedronShapeEx.html" title="Helper class for tetrahedrons. " alt="" coords="1273,5,1428,32"/>
+</map>

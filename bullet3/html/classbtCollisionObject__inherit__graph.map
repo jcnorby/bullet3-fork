@@ -1,0 +1,7 @@
+<map id="btCollisionObject" name="btCollisionObject">
+<area shape="rect" id="node2" href="$classbtGhostObject.html" title="The btGhostObject can keep track of all objects that are overlapping By default, this overlap is base..." alt="" coords="41,80,147,107"/>
+<area shape="rect" id="node4" href="$classbtMultiBodyLinkCollider.html" title="btMultiBodyLinkCollider" alt="" coords="172,80,331,107"/>
+<area shape="rect" id="node5" href="$classbtRigidBody.html" title="The btRigidBody is the main class for rigid body objects. " alt="" coords="355,80,449,107"/>
+<area shape="rect" id="node6" href="$classbtSoftBody.html" title="The btSoftBody is an class to simulate cloth and volumetric soft bodies. " alt="" coords="473,80,560,107"/>
+<area shape="rect" id="node3" href="$classbtPairCachingGhostObject.html" title="btPairCachingGhostObject" alt="" coords="5,155,183,181"/>
+</map>

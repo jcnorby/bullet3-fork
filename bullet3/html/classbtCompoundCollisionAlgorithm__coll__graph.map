@@ -1,0 +1,24 @@
+<map id="btCompoundCollisionAlgorithm" name="btCompoundCollisionAlgorithm">
+<area shape="rect" id="node2" href="$classbtActivatingCollisionAlgorithm.html" title="This class is not enabled yet (work&#45;in&#45;progress) to more aggressively activate objects. " alt="" coords="1697,23,1893,49"/>
+<area shape="rect" id="node3" href="$classbtCollisionAlgorithm.html" title="btCollisionAlgorithm is an collision interface that is compatible with the Broadphase and btDispatche..." alt="" coords="1415,17,1553,44"/>
+<area shape="rect" id="node5" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btCollisionAlgorithm *\&gt;" alt="" coords="1712,85,1879,126"/>
+<area shape="rect" id="node4" href="$classbtDispatcher.html" title="The btDispatcher interface class can be used in combination with broadphase to dispatch calculations ..." alt="" coords="1050,17,1146,44"/>
+<area shape="rect" id="node6" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btCollisionAlgorithm\l *, 16 \&gt;" alt="" coords="1409,73,1559,129"/>
+<area shape="rect" id="node7" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; const btDbvtNode * \&gt;" alt="" coords="1017,107,1179,149"/>
+<area shape="rect" id="node8" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; const btDbvtNode *, 16 \&gt;" alt="" coords="601,110,784,151"/>
+<area shape="rect" id="node9" href="$structbtDbvtNode.html" title="btDbvtNode" alt="" coords="647,59,739,85"/>
+<area shape="rect" id="node10" href="$structbtDbvtAabbMm.html" title="btDbvtAabbMm" alt="" coords="256,88,369,115"/>
+<area shape="rect" id="node11" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="5,260,84,287"/>
+<area shape="rect" id="node14" href="$classbtCollisionObject.html" title="btCollisionObject can be used to manage collision detection objects. " alt="" coords="1037,289,1159,316"/>
+<area shape="rect" id="node18" href="$classbtTransform.html" title="The btTransform class supports rigid transforms with only translation and rotation and no scaling/she..." alt="" coords="647,176,739,203"/>
+<area shape="rect" id="node19" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="267,233,358,260"/>
+<area shape="rect" id="node20" href="$structbtBroadphaseProxy.html" title="The btBroadphaseProxy is the main class that can be used with the Bullet broadphases. " alt="" coords="417,255,553,281"/>
+<area shape="rect" id="node21" href="$classbtManifoldPoint.html" title="ManifoldContactPoint collects and maintains persistent contactpoints. " alt="" coords="429,457,541,484"/>
+<area shape="rect" id="node12" href="$classbtPersistentManifold.html" title="btPersistentManifold is a contact point cache, it stays persistent as long as objects are overlapping..." alt="" coords="1413,385,1555,412"/>
+<area shape="rect" id="node22" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btPersistentManifold * \&gt;" alt="" coords="1708,289,1883,330"/>
+<area shape="rect" id="node13" href="$structbtTypedObject.html" title="rudimentary class to provide type info " alt="" coords="1045,397,1151,424"/>
+<area shape="rect" id="node15" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; const btCollisionObject *\&gt;" alt="" coords="1391,215,1577,257"/>
+<area shape="rect" id="node16" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; const btCollisionObject\l *, 16 \&gt;" alt="" coords="1013,173,1183,229"/>
+<area shape="rect" id="node17" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="633,289,753,316"/>
+<area shape="rect" id="node23" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btPersistentManifold\l *, 16 \&gt;" alt="" coords="1407,281,1561,337"/>
+</map>

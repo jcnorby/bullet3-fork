@@ -1,0 +1,17 @@
+<map id="btMultiSphereShape.h" name="btMultiSphereShape.h">
+<area shape="rect" id="node2" href="$btConvexInternalShape_8h.html" title="btConvexInternalShape.h" alt="" coords="369,80,538,107"/>
+<area shape="rect" id="node17" href="$btBroadphaseProxy_8h.html" title="BulletCollision/Broadphase\lCollision/btBroadphaseProxy.h" alt="" coords="491,453,693,495"/>
+<area shape="rect" id="node19" href="$btAabbUtil2_8h.html" title="LinearMath/btAabbUtil2.h" alt="" coords="42,229,211,256"/>
+<area shape="rect" id="node20" href="$btAlignedObjectArray_8h.html" title="LinearMath/btAlignedObject\lArray.h" alt="" coords="761,543,943,584"/>
+<area shape="rect" id="node3" href="$btConvexShape_8h.html" title="btConvexShape.h" alt="" coords="390,155,517,181"/>
+<area shape="rect" id="node4" href="$btCollisionShape_8h.html" title="btCollisionShape.h" alt="" coords="337,229,468,256"/>
+<area shape="rect" id="node5" href="$btTransform_8h.html" title="LinearMath/btTransform.h" alt="" coords="93,304,264,331"/>
+<area shape="rect" id="node6" href="$btMatrix3x3_8h.html" title="btMatrix3x3.h" alt="" coords="243,379,344,405"/>
+<area shape="rect" id="node7" href="$btVector3_8h.html" title="btVector3.h" alt="" coords="358,550,447,577"/>
+<area shape="rect" id="node13" href="$btAlignedAllocator_8h.html" title="btAlignedAllocator.h" alt="" coords="523,632,661,659"/>
+<area shape="rect" id="node18" href="$btCollisionMargin_8h.html" title="btCollisionMargin.h" alt="" coords="543,229,676,256"/>
+<area shape="rect" id="node14" href="$btQuaternion_8h.html" title="btQuaternion.h" alt="" coords="123,461,229,487"/>
+<area shape="rect" id="node8" href="$btScalar_8h.html" title="btScalar.h" alt="" coords="427,707,509,733"/>
+<area shape="rect" id="node12" href="$btMinMax_8h.html" title="btMinMax.h" alt="" coords="245,632,336,659"/>
+<area shape="rect" id="node15" href="$btQuadWord_8h.html" title="btQuadWord.h" alt="" coords="227,550,333,577"/>
+</map>

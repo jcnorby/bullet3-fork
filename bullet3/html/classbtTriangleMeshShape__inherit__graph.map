@@ -1,0 +1,6 @@
+<map id="btTriangleMeshShape" name="btTriangleMeshShape">
+<area shape="rect" id="node4" href="$classbtBvhTriangleMeshShape.html" title="The btBvhTriangleMeshShape is a static&#45;triangle mesh shape, it can only be used for fixed/non&#45;moving ..." alt="" coords="13,229,183,256"/>
+<area shape="rect" id="node2" href="$classbtConcaveShape.html" title="The btConcaveShape class provides an interface for non&#45;moving (static) concave shapes. " alt="" coords="37,80,159,107"/>
+<area shape="rect" id="node3" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="38,5,158,32"/>
+<area shape="rect" id="node5" href="$classbtMultimaterialTriangleMeshShape.html" title="This file was created by Alex Silverman. " alt="" coords="5,304,191,345"/>
+</map>

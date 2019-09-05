@@ -1,0 +1,10 @@
+<map id="btConvexHullComputer" name="btConvexHullComputer">
+<area shape="rect" id="node2" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btVector3 \&gt;" alt="" coords="309,57,454,98"/>
+<area shape="rect" id="node3" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="51,5,130,32"/>
+<area shape="rect" id="node4" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btVector3, 16 \&gt;" alt="" coords="27,57,154,98"/>
+<area shape="rect" id="node5" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btConvexHullComputer\l::Edge \&gt;" alt="" coords="296,139,467,195"/>
+<area shape="rect" id="node6" href="$classbtConvexHullComputer_1_1Edge.html" title="btConvexHullComputer\l::Edge" alt="" coords="11,122,170,163"/>
+<area shape="rect" id="node7" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btConvexHullComputer\l::Edge, 16 \&gt;" alt="" coords="5,188,176,244"/>
+<area shape="rect" id="node8" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; int \&gt;" alt="" coords="309,251,454,293"/>
+<area shape="rect" id="node9" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; int, 16 \&gt;" alt="" coords="27,269,154,310"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="btFixedConstraint" name="btFixedConstraint">
+<area shape="rect" id="node2" href="$classbtGeneric6DofSpring2Constraint.html" title="btGeneric6DofSpring2Constraint" alt="" coords="5,155,216,181"/>
+<area shape="rect" id="node3" href="$classbtTypedConstraint.html" title="TypedConstraint is the baseclass for Bullet constraints and vehicles. " alt="" coords="46,80,175,107"/>
+<area shape="rect" id="node4" href="$structbtTypedObject.html" title="rudimentary class to provide type info " alt="" coords="57,5,164,32"/>
+</map>

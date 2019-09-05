@@ -1,0 +1,18 @@
+<map id="btTriangleShape.h" name="btTriangleShape.h">
+<area shape="rect" id="node2" href="$btConvexShape_8h.html" title="btConvexShape.h" alt="" coords="198,304,325,331"/>
+<area shape="rect" id="node18" href="$btBoxShape_8h.html" title="btBoxShape.h" alt="" coords="480,80,584,107"/>
+<area shape="rect" id="node3" href="$btCollisionShape_8h.html" title="btCollisionShape.h" alt="" coords="144,379,275,405"/>
+<area shape="rect" id="node4" href="$btTransform_8h.html" title="LinearMath/btTransform.h" alt="" coords="297,453,468,480"/>
+<area shape="rect" id="node5" href="$btMatrix3x3_8h.html" title="btMatrix3x3.h" alt="" coords="416,528,517,555"/>
+<area shape="rect" id="node6" href="$btVector3_8h.html" title="btVector3.h" alt="" coords="354,692,443,719"/>
+<area shape="rect" id="node12" href="$btAlignedAllocator_8h.html" title="btAlignedAllocator.h" alt="" coords="216,767,355,793"/>
+<area shape="rect" id="node17" href="$btCollisionMargin_8h.html" title="btCollisionMargin.h" alt="" coords="400,379,533,405"/>
+<area shape="rect" id="node16" href="$btBroadphaseProxy_8h.html" title="BulletCollision/Broadphase\lCollision/btBroadphaseProxy.h" alt="" coords="58,603,259,644"/>
+<area shape="rect" id="node13" href="$btQuaternion_8h.html" title="btQuaternion.h" alt="" coords="572,610,679,637"/>
+<area shape="rect" id="node7" href="$btScalar_8h.html" title="btScalar.h" alt="" coords="358,841,439,868"/>
+<area shape="rect" id="node11" href="$btMinMax_8h.html" title="btMinMax.h" alt="" coords="533,767,624,793"/>
+<area shape="rect" id="node14" href="$btQuadWord_8h.html" title="btQuadWord.h" alt="" coords="525,692,632,719"/>
+<area shape="rect" id="node19" href="$btPolyhedralConvexShape_8h.html" title="btPolyhedralConvexShape.h" alt="" coords="504,155,691,181"/>
+<area shape="rect" id="node20" href="$btConvexInternalShape_8h.html" title="btConvexInternalShape.h" alt="" coords="609,229,778,256"/>
+<area shape="rect" id="node21" href="$btAabbUtil2_8h.html" title="LinearMath/btAabbUtil2.h" alt="" coords="609,379,778,405"/>
+</map>

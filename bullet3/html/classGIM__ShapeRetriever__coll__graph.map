@@ -1,0 +1,33 @@
+<map id="GIM_ShapeRetriever" name="GIM_ShapeRetriever">
+<area shape="rect" id="node15" href="$classGIM__ShapeRetriever_1_1ChildShapeRetriever.html" title="GIM_ShapeRetriever\l::ChildShapeRetriever" alt="" coords="3160,404,3311,445"/>
+<area shape="rect" id="node2" href="$classbtGImpactShapeInterface.html" title="Base class for gimpact shapes. " alt="" coords="2014,621,2185,647"/>
+<area shape="rect" id="node3" href="$classbtConcaveShape.html" title="The btConcaveShape class provides an interface for non&#45;moving (static) concave shapes. " alt="" coords="1209,750,1332,777"/>
+<area shape="rect" id="node4" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="677,747,797,774"/>
+<area shape="rect" id="node21" href="$classbtConvexShape.html" title="The btConvexShape is an abstract shape interface, implemented by all convex shapes such as btBoxShape..." alt="" coords="1021,597,1136,623"/>
+<area shape="rect" id="node5" href="$classbtAABB.html" title="Axis aligned box. " alt="" coords="1044,647,1113,674"/>
+<area shape="rect" id="node9" href="$classbtQuantizedBvhTree.html" title="Basic Box tree structure. " alt="" coords="1367,685,1509,711"/>
+<area shape="rect" id="node6" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="698,418,777,445"/>
+<area shape="rect" id="node17" href="$classbtBU__Simplex1to4.html" title="The btBU_Simplex1to4 implements tetrahedron, triangle, line, vertex collision shapes. In most cases it is better to use btConvexHullShape instead. " alt="" coords="2257,402,2388,429"/>
+<area shape="rect" id="node18" href="$classbtPolyhedralConvexAabbCachingShape.html" title="The btPolyhedralConvexAabbCachingShape adds aabb caching to the btPolyhedralConvexShape. " alt="" coords="1991,417,2208,459"/>
+<area shape="rect" id="node20" href="$classbtConvexInternalShape.html" title="The btConvexInternalShape is an internal base class, shared by most convex shape implementations. " alt="" coords="1359,494,1517,521"/>
+<area shape="rect" id="node22" href="$classbtConvexPolyhedron.html" title="btConvexPolyhedron" alt="" coords="1367,213,1509,239"/>
+<area shape="rect" id="node23" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btVector3 \&gt;" alt="" coords="1006,129,1151,171"/>
+<area shape="rect" id="node31" href="$classbtTriangleShape.html" title="btTriangleShape" alt="" coords="2041,315,2157,342"/>
+<area shape="rect" id="node7" href="$classbtGImpactQuantizedBvh.html" title="Structure for containing Boxes. " alt="" coords="1703,786,1868,813"/>
+<area shape="rect" id="node8" href="$classbtPrimitiveManagerBase.html" title="Prototype Base class for primitive classification. " alt="" coords="1356,815,1520,842"/>
+<area shape="rect" id="node10" href="$classGIM__QUANTIZED__BVH__NODE__ARRAY.html" title="GIM_QUANTIZED_BVH_NODE\l_ARRAY" alt="" coords="972,815,1185,856"/>
+<area shape="rect" id="node11" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; BT_QUANTIZED_BVH_NODE \&gt;" alt="" coords="623,815,852,856"/>
+<area shape="rect" id="node12" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; BT_QUANTIZED_BVH_NODE, 16 \&gt;" alt="" coords="252,785,503,827"/>
+<area shape="rect" id="node13" href="$structBT__QUANTIZED__BVH__NODE.html" title="btQuantizedBvhNode is a compressed aabb node, 16 bytes. " alt="" coords="275,851,480,878"/>
+<area shape="rect" id="node14" href="$classGIM__ShapeRetriever_1_1TetraShapeRetriever.html" title="GIM_ShapeRetriever\l::TetraShapeRetriever" alt="" coords="3368,384,3519,425"/>
+<area shape="rect" id="node32" href="$classGIM__ShapeRetriever_1_1TriangleShapeRetriever.html" title="GIM_ShapeRetriever\l::TriangleShapeRetriever" alt="" coords="3360,449,3527,491"/>
+<area shape="rect" id="node16" href="$classbtTetrahedronShapeEx.html" title="Helper class for tetrahedrons. " alt="" coords="2568,402,2723,429"/>
+<area shape="rect" id="node19" href="$classbtPolyhedralConvexShape.html" title="The btPolyhedralConvexShape is an internal interface class for polyhedral convex shapes. " alt="" coords="1697,315,1873,342"/>
+<area shape="rect" id="node24" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btVector3, 16 \&gt;" alt="" coords="674,129,801,171"/>
+<area shape="rect" id="node25" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btFace \&gt;" alt="" coords="1006,64,1151,105"/>
+<area shape="rect" id="node26" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btFace, 16 \&gt;" alt="" coords="674,64,801,105"/>
+<area shape="rect" id="node27" href="$structbtFace.html" title="btFace" alt="" coords="706,13,769,39"/>
+<area shape="rect" id="node28" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; int \&gt;" alt="" coords="305,5,450,47"/>
+<area shape="rect" id="node29" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; int, 16 \&gt;" alt="" coords="5,5,132,47"/>
+<area shape="rect" id="node30" href="$classbtTriangleShapeEx.html" title="Helper class for colliding Bullet Triangle Shapes. " alt="" coords="2412,337,2544,363"/>
+</map>

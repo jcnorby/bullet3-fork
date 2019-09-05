@@ -1,0 +1,16 @@
+<map id="gim_tri_collision.h" name="gim_tri_collision.h">
+<area shape="rect" id="node2" href="$gim__box__collision_8h.html" title="gim_box_collision.h" alt="" coords="141,80,277,107"/>
+<area shape="rect" id="node19" href="$gim__clip__polygon_8h.html" title="gim_clip_polygon.h" alt="" coords="301,80,435,107"/>
+<area shape="rect" id="node3" href="$gim__basic__geometry__operations_8h.html" title="gim_basic_geometry\l_operations.h" alt="" coords="47,155,190,196"/>
+<area shape="rect" id="node11" href="$btTransform_8h.html" title="LinearMath/btTransform.h" alt="" coords="217,162,388,189"/>
+<area shape="rect" id="node4" href="$gim__linear__math_8h.html" title="gim_linear_math.h" alt="" coords="48,244,176,271"/>
+<area shape="rect" id="node5" href="$gim__math_8h.html" title="gim_math.h" alt="" coords="5,393,96,420"/>
+<area shape="rect" id="node10" href="$gim__geom__types_8h.html" title="gim_geom_types.h" alt="" coords="46,319,178,345"/>
+<area shape="rect" id="node6" href="$btScalar_8h.html" title="LinearMath/btScalar.h" alt="" coords="133,543,283,569"/>
+<area shape="rect" id="node12" href="$btMatrix3x3_8h.html" title="btMatrix3x3.h" alt="" coords="253,244,355,271"/>
+<area shape="rect" id="node13" href="$btVector3_8h.html" title="btVector3.h" alt="" coords="171,393,261,420"/>
+<area shape="rect" id="node16" href="$btQuaternion_8h.html" title="btQuaternion.h" alt="" coords="253,319,360,345"/>
+<area shape="rect" id="node14" href="$btMinMax_8h.html" title="btMinMax.h" alt="" coords="301,468,392,495"/>
+<area shape="rect" id="node15" href="$btAlignedAllocator_8h.html" title="btAlignedAllocator.h" alt="" coords="139,468,277,495"/>
+<area shape="rect" id="node17" href="$btQuadWord_8h.html" title="btQuadWord.h" alt="" coords="293,393,400,420"/>
+</map>

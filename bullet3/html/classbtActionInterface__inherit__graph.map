@@ -1,0 +1,5 @@
+<map id="btActionInterface" name="btActionInterface">
+<area shape="rect" id="node2" href="$classbtCharacterControllerInterface.html" title="btCharacterControllerInterface" alt="" coords="9,80,206,107"/>
+<area shape="rect" id="node4" href="$classbtRaycastVehicle.html" title="rayCast vehicle, very special constraint that turn a rigidbody into a vehicle. " alt="" coords="230,80,355,107"/>
+<area shape="rect" id="node3" href="$classbtKinematicCharacterController.html" title="btKinematicCharacterController is an object that supports a sliding motion in a world. " alt="" coords="5,155,209,181"/>
+</map>

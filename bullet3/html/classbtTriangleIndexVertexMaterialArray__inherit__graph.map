@@ -1,0 +1,4 @@
+<map id="btTriangleIndexVertexMaterialArray" name="btTriangleIndexVertexMaterialArray">
+<area shape="rect" id="node2" href="$classbtTriangleIndexVertexArray.html" title="The btTriangleIndexVertexArray allows to access multiple triangle meshes, by indexing into existing t..." alt="" coords="13,80,193,107"/>
+<area shape="rect" id="node3" href="$classbtStridingMeshInterface.html" title="The btStridingMeshInterface is the interface class for high performance generic access to triangle me..." alt="" coords="23,5,183,32"/>
+</map>

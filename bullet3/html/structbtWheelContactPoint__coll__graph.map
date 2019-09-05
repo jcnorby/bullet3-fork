@@ -1,0 +1,17 @@
+<map id="btWheelContactPoint" name="btWheelContactPoint">
+<area shape="rect" id="node2" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="5,373,84,400"/>
+<area shape="rect" id="node3" href="$classbtRigidBody.html" title="The btRigidBody is the main class for rigid body objects. " alt="" coords="1388,240,1481,267"/>
+<area shape="rect" id="node4" href="$classbtCollisionObject.html" title="btCollisionObject can be used to manage collision detection objects. " alt="" coords="988,392,1109,419"/>
+<area shape="rect" id="node8" href="$classbtTransform.html" title="The btTransform class supports rigid transforms with only translation and rotation and no scaling/she..." alt="" coords="620,383,712,409"/>
+<area shape="rect" id="node9" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="275,321,365,348"/>
+<area shape="rect" id="node10" href="$structbtBroadphaseProxy.html" title="The btBroadphaseProxy is the main class that can be used with the Bullet broadphases. " alt="" coords="413,419,549,445"/>
+<area shape="rect" id="node14" href="$structbtJointFeedback.html" title="btJointFeedback" alt="" coords="422,563,541,589"/>
+<area shape="rect" id="node12" href="$classbtTypedConstraint.html" title="TypedConstraint is the baseclass for Bullet constraints and vehicles. " alt="" coords="1642,317,1771,344"/>
+<area shape="rect" id="node5" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; const btCollisionObject *\&gt;" alt="" coords="1341,417,1528,458"/>
+<area shape="rect" id="node6" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; const btCollisionObject\l *, 16 \&gt;" alt="" coords="964,455,1133,511"/>
+<area shape="rect" id="node7" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="606,332,726,359"/>
+<area shape="rect" id="node11" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btTypedConstraint *\&gt;" alt="" coords="1900,310,2059,351"/>
+<area shape="rect" id="node13" href="$structbtTypedObject.html" title="rudimentary class to provide type info " alt="" coords="1381,333,1488,360"/>
+<area shape="rect" id="node15" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btTypedConstraint\l *, 16 \&gt;" alt="" coords="1636,368,1777,424"/>
+<area shape="rect" id="node16" href="$classbtMotionState.html" title="The btMotionState interface class allows the dynamics world to synchronize and interpolate the update..." alt="" coords="997,169,1100,196"/>
+</map>

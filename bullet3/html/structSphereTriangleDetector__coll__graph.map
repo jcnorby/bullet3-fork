@@ -1,0 +1,18 @@
+<map id="SphereTriangleDetector" name="SphereTriangleDetector">
+<area shape="rect" id="node2" href="$structbtDiscreteCollisionDetectorInterface.html" title="This interface is made to be used by an iterative approach to do TimeOfImpact calculations This inter..." alt="" coords="1693,5,1876,47"/>
+<area shape="rect" id="node3" href="$classbtTriangleShape.html" title="btTriangleShape" alt="" coords="1727,134,1843,161"/>
+<area shape="rect" id="node4" href="$classbtPolyhedralConvexShape.html" title="The btPolyhedralConvexShape is an internal interface class for polyhedral convex shapes. " alt="" coords="1359,123,1535,150"/>
+<area shape="rect" id="node5" href="$classbtConvexInternalShape.html" title="The btConvexInternalShape is an internal base class, shared by most convex shape implementations. " alt="" coords="1067,93,1225,119"/>
+<area shape="rect" id="node17" href="$classbtSphereShape.html" title="The btSphereShape implements an implicit sphere, centered around a local origin with radius..." alt="" coords="1559,73,1669,99"/>
+<area shape="rect" id="node6" href="$classbtConvexShape.html" title="The btConvexShape is an abstract shape interface, implemented by all convex shapes such as btBoxShape..." alt="" coords="783,46,898,73"/>
+<area shape="rect" id="node7" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="513,46,633,73"/>
+<area shape="rect" id="node8" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="533,222,612,249"/>
+<area shape="rect" id="node9" href="$classbtConvexPolyhedron.html" title="btConvexPolyhedron" alt="" coords="1075,305,1217,331"/>
+<area shape="rect" id="node10" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btVector3 \&gt;" alt="" coords="768,332,913,373"/>
+<area shape="rect" id="node11" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btVector3, 16 \&gt;" alt="" coords="509,343,636,384"/>
+<area shape="rect" id="node12" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btFace \&gt;" alt="" coords="768,408,913,449"/>
+<area shape="rect" id="node13" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btFace, 16 \&gt;" alt="" coords="509,408,636,449"/>
+<area shape="rect" id="node14" href="$structbtFace.html" title="btFace" alt="" coords="541,474,604,501"/>
+<area shape="rect" id="node15" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; int \&gt;" alt="" coords="252,467,397,508"/>
+<area shape="rect" id="node16" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; int, 16 \&gt;" alt="" coords="5,467,132,508"/>
+</map>

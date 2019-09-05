@@ -1,0 +1,8 @@
+<map id="btCompoundShapeChild" name="btCompoundShapeChild">
+<area shape="rect" id="node2" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="5,200,125,227"/>
+<area shape="rect" id="node3" href="$classbtTransform.html" title="The btTransform class supports rigid transforms with only translation and rotation and no scaling/she..." alt="" coords="150,200,242,227"/>
+<area shape="rect" id="node4" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="157,5,235,32"/>
+<area shape="rect" id="node5" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="151,109,241,136"/>
+<area shape="rect" id="node7" href="$structbtDbvtAabbMm.html" title="btDbvtAabbMm" alt="" coords="266,109,379,136"/>
+<area shape="rect" id="node6" href="$structbtDbvtNode.html" title="btDbvtNode" alt="" coords="271,200,363,227"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classbtQuantizedBvh.html" title="The btQuantizedBvh class stores an AABB tree that can be quickly traversed on CPU and Cell SPU..." alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" href="$classbtOptimizedBvh.html" title="The btOptimizedBvh extends the btQuantizedBvh to create AABB tree for triangle meshes, through the btStridingMeshInterface. " alt="" coords="168,5,283,32"/>
+</map>

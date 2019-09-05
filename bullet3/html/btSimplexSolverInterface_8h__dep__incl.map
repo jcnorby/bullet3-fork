@@ -1,0 +1,29 @@
+<map id="btSimplexSolverInterface.h" name="btSimplexSolverInterface.h">
+<area shape="rect" id="node2" href="$btContinuousConvexCollision_8h.html" title="btContinuousConvexCollision.h" alt="" coords="1880,177,2085,203"/>
+<area shape="rect" id="node6" href="$btContinuousConvexCollision_8cpp.html" title="btContinuousConvexCollision.cpp" alt="" coords="274,266,493,293"/>
+<area shape="rect" id="node8" href="$btVoronoiSimplexSolver_8h.html" title="btVoronoiSimplexSolver.h" alt="" coords="696,87,868,114"/>
+<area shape="rect" id="node17" href="$btGjkPairDetector_8h.html" title="btGjkPairDetector.h" alt="" coords="1299,87,1436,114"/>
+<area shape="rect" id="node19" href="$btGjkPairDetector_8cpp.html" title="btGjkPairDetector.cpp" alt="" coords="1603,177,1754,203"/>
+<area shape="rect" id="node20" href="$btConvexPenetrationDepthSolver_8h.html" title="btConvexPenetrationDepth\lSolver.h" alt="" coords="1709,80,1888,121"/>
+<area shape="rect" id="node24" href="$btGjkConvexCast_8h.html" title="btGjkConvexCast.h" alt="" coords="2311,177,2448,203"/>
+<area shape="rect" id="node25" href="$btSubSimplexConvexCast_8h.html" title="btSubSimplexConvexCast.h" alt="" coords="2473,177,2660,203"/>
+<area shape="rect" id="node27" href="$btSubSimplexConvexCast_8cpp.html" title="btSubSimplexConvexCast.cpp" alt="" coords="2895,266,3096,293"/>
+<area shape="rect" id="node3" href="$btCollisionWorld_8cpp.html" title="btCollisionWorld.cpp" alt="" coords="2127,266,2270,293"/>
+<area shape="rect" id="node4" href="$btConvex2dConvex2dAlgorithm_8cpp.html" title="btConvex2dConvex2dAlgorithm.cpp" alt="" coords="1496,266,1727,293"/>
+<area shape="rect" id="node5" href="$btConvexConvexAlgorithm_8cpp.html" title="btConvexConvexAlgorithm.cpp" alt="" coords="1269,266,1472,293"/>
+<area shape="rect" id="node7" href="$btRaycastCallback_8cpp.html" title="btRaycastCallback.cpp" alt="" coords="2294,266,2452,293"/>
+<area shape="rect" id="node9" href="$btConvex2dConvex2dAlgorithm_8h.html" title="btConvex2dConvex2dAlgorithm.h" alt="" coords="1259,177,1476,203"/>
+<area shape="rect" id="node10" href="$btConvexConvexAlgorithm_8h.html" title="btConvexConvexAlgorithm.h" alt="" coords="621,177,810,203"/>
+<area shape="rect" id="node11" href="$btDefaultCollisionConfiguration_8cpp.html" title="btDefaultCollisionConfiguration.cpp" alt="" coords="741,266,968,293"/>
+<area shape="rect" id="node14" href="$btComputeGjkEpaPenetration_8h.html" title="btComputeGjkEpaPenetration.h" alt="" coords="339,177,546,203"/>
+<area shape="rect" id="node15" href="$btMinkowskiPenetrationDepthSolver_8cpp.html" title="btMinkowskiPenetrationDepth\lSolver.cpp" alt="" coords="992,259,1188,300"/>
+<area shape="rect" id="node16" href="$btVoronoiSimplexSolver_8cpp.html" title="btVoronoiSimplexSolver.cpp" alt="" coords="26,177,213,203"/>
+<area shape="rect" id="node12" href="$btGImpactCollisionAlgorithm_8h.html" title="btGImpactCollisionAlgorithm.h" alt="" coords="518,266,716,293"/>
+<area shape="rect" id="node13" href="$btGImpactCollisionAlgorithm_8cpp.html" title="btGImpactCollisionAlgorithm.cpp" alt="" coords="510,348,724,375"/>
+<area shape="rect" id="node18" href="$btGjkConvexCast_8cpp.html" title="btGjkConvexCast.cpp" alt="" coords="1751,266,1902,293"/>
+<area shape="rect" id="node21" href="$btGjkEpaPenetrationDepthSolver_8h.html" title="btGjkEpaPenetrationDepth\lSolver.h" alt="" coords="2110,169,2287,211"/>
+<area shape="rect" id="node23" href="$btMinkowskiPenetrationDepthSolver_8h.html" title="btMinkowskiPenetrationDepth\lSolver.h" alt="" coords="936,169,1132,211"/>
+<area shape="rect" id="node22" href="$btGjkEpaPenetrationDepthSolver_8cpp.html" title="btGjkEpaPenetrationDepth\lSolver.cpp" alt="" coords="1926,259,2103,300"/>
+<area shape="rect" id="node26" href="$btConvexConcaveCollisionAlgorithm_8cpp.html" title="btConvexConcaveCollision\lAlgorithm.cpp" alt="" coords="2476,259,2656,300"/>
+<area shape="rect" id="node28" href="$btSoftBodyConcaveCollisionAlgorithm_8cpp.html" title="btSoftBodyConcaveCollision\lAlgorithm.cpp" alt="" coords="2681,259,2870,300"/>
+</map>

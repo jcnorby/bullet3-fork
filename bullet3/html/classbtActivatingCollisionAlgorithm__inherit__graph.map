@@ -1,0 +1,14 @@
+<map id="btActivatingCollisionAlgorithm" name="btActivatingCollisionAlgorithm">
+<area shape="rect" id="node3" href="$classbtBox2dBox2dCollisionAlgorithm.html" title="box&#45;box collision detection " alt="" coords="440,5,652,32"/>
+<area shape="rect" id="node4" href="$classbtBoxBoxCollisionAlgorithm.html" title="box&#45;box collision detection " alt="" coords="454,56,638,83"/>
+<area shape="rect" id="node5" href="$classbtCompoundCollisionAlgorithm.html" title="btCompoundCollisionAlgorithm supports collision between CompoundCollisionShapes and other collision s..." alt="" coords="445,107,647,133"/>
+<area shape="rect" id="node7" href="$classbtConvex2dConvex2dAlgorithm.html" title="The convex2dConvex2dAlgorithm collision algorithm support 2d collision detection for btConvex2dShape ..." alt="" coords="443,157,649,184"/>
+<area shape="rect" id="node8" href="$classbtConvexConcaveCollisionAlgorithm.html" title="btConvexConcaveCollisionAlgorithm supports collision between convex shapes and (concave) trianges mes..." alt="" coords="456,209,636,250"/>
+<area shape="rect" id="node9" href="$classbtConvexConvexAlgorithm.html" title="Enabling USE_SEPDISTANCE_UTIL2 requires 100% reliable distance computation. " alt="" coords="457,275,635,301"/>
+<area shape="rect" id="node10" href="$classbtGImpactCollisionAlgorithm.html" title="Collision Algorithm for GImpact Shapes. " alt="" coords="452,325,640,352"/>
+<area shape="rect" id="node11" href="$classbtSphereBoxCollisionAlgorithm.html" title="btSphereBoxCollisionAlgorithm provides sphere&#45;box collision detection. " alt="" coords="445,376,647,403"/>
+<area shape="rect" id="node12" href="$classbtSphereSphereCollisionAlgorithm.html" title="btSphereSphereCollisionAlgorithm provides sphere&#45;sphere collision detection. " alt="" coords="436,427,656,453"/>
+<area shape="rect" id="node13" href="$classbtSphereTriangleCollisionAlgorithm.html" title="btSphereSphereCollisionAlgorithm provides sphere&#45;sphere collision detection. " alt="" coords="461,478,631,519"/>
+<area shape="rect" id="node2" href="$classbtCollisionAlgorithm.html" title="btCollisionAlgorithm is an collision interface that is compatible with the Broadphase and btDispatche..." alt="" coords="5,245,144,272"/>
+<area shape="rect" id="node6" href="$classbtCompoundCompoundCollisionAlgorithm.html" title="btCompoundCompoundCollisionAlgorithm supports collision between two btCompoundCollisionShape shapes ..." alt="" coords="704,99,913,141"/>
+</map>

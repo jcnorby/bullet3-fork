@@ -1,0 +1,7 @@
+<map id="btSimulationIslandManagerMt::SolverParams" name="btSimulationIslandManagerMt::SolverParams">
+<area shape="rect" id="node2" href="$structbtContactSolverInfo.html" title="btContactSolverInfo" alt="" coords="19,81,158,108"/>
+<area shape="rect" id="node3" href="$structbtContactSolverInfoData.html" title="btContactSolverInfoData" alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node4" href="$classbtDispatcher.html" title="The btDispatcher interface class can be used in combination with broadphase to dispatch calculations ..." alt="" coords="182,81,278,108"/>
+<area shape="rect" id="node5" href="$classbtConstraintSolver.html" title="btConstraintSolver" alt="" coords="302,81,433,108"/>
+<area shape="rect" id="node6" href="$classbtIDebugDraw.html" title="The btIDebugDraw interface class allows hooking up a debug renderer to visually debug simulations..." alt="" coords="457,81,563,108"/>
+</map>

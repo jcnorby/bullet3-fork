@@ -1,0 +1,7 @@
+<map id="btGjkPairDetector" name="btGjkPairDetector">
+<area shape="rect" id="node2" href="$structbtDiscreteCollisionDetectorInterface.html" title="This interface is made to be used by an iterative approach to do TimeOfImpact calculations This inter..." alt="" coords="175,5,357,47"/>
+<area shape="rect" id="node3" href="$classbtConvexShape.html" title="The btConvexShape is an abstract shape interface, implemented by all convex shapes such as btBoxShape..." alt="" coords="209,71,323,98"/>
+<area shape="rect" id="node4" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="5,71,125,98"/>
+<area shape="rect" id="node5" href="$classbtConvexPenetrationDepthSolver.html" title="ConvexPenetrationDepthSolver provides an interface for penetration depth calculation. " alt="" coords="177,123,355,164"/>
+<area shape="rect" id="node6" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="227,189,305,215"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Bullet::btGeneric6DofConstraintDoubleData2" name="Bullet::btGeneric6DofConstraintDoubleData2">
+<area shape="rect" id="node2" href="$classBullet_1_1btTypedConstraintDoubleData.html" title="Bullet::btTypedConstraint\lDoubleData" alt="" coords="1779,126,1949,167"/>
+<area shape="rect" id="node3" href="$classBullet_1_1btRigidBodyDoubleData.html" title="Bullet::btRigidBodyDoubleData" alt="" coords="1485,133,1688,160"/>
+<area shape="rect" id="node4" href="$classBullet_1_1btMatrix3x3DoubleData.html" title="Bullet::btMatrix3x3DoubleData" alt="" coords="275,16,475,43"/>
+<area shape="rect" id="node7" href="$classBullet_1_1btTransformDoubleData.html" title="Bullet::btTransformDoubleData" alt="" coords="707,53,909,80"/>
+<area shape="rect" id="node5" href="$classBullet_1_1btVector3DoubleData.html" title="Bullet::btVector3DoubleData" alt="" coords="5,132,193,159"/>
+<area shape="rect" id="node6" href="$classBullet_1_1btCollisionObjectDoubleData.html" title="Bullet::btCollisionObject\lDoubleData" alt="" coords="1139,126,1301,167"/>
+<area shape="rect" id="node8" href="$classBullet_1_1btCollisionShapeData.html" title="Bullet::btCollisionShapeData" alt="" coords="713,183,903,209"/>
+</map>

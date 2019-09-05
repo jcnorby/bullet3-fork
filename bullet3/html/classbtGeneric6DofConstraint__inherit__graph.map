@@ -1,0 +1,6 @@
+<map id="btGeneric6DofConstraint" name="btGeneric6DofConstraint">
+<area shape="rect" id="node4" href="$classbtGeneric6DofSpringConstraint.html" title="Generic 6 DOF constraint that allows to set spring motors to any translational and rotational DOF..." alt="" coords="5,229,208,256"/>
+<area shape="rect" id="node5" href="$classbtUniversalConstraint.html" title="Constraint similar to ODE Universal Joint has 2 rotatioonal degrees of freedom, similar to Euler rota..." alt="" coords="233,229,381,256"/>
+<area shape="rect" id="node2" href="$classbtTypedConstraint.html" title="TypedConstraint is the baseclass for Bullet constraints and vehicles. " alt="" coords="142,80,271,107"/>
+<area shape="rect" id="node3" href="$structbtTypedObject.html" title="rudimentary class to provide type info " alt="" coords="153,5,260,32"/>
+</map>

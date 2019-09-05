@@ -1,0 +1,4 @@
+<map id="btConvex2dShape" name="btConvex2dShape">
+<area shape="rect" id="node2" href="$classbtConvexShape.html" title="The btConvexShape is an abstract shape interface, implemented by all convex shapes such as btBoxShape..." alt="" coords="13,80,127,107"/>
+<area shape="rect" id="node3" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="10,5,130,32"/>
+</map>

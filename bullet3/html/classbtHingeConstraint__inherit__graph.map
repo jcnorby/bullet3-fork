@@ -1,0 +1,5 @@
+<map id="btHingeConstraint" name="btHingeConstraint">
+<area shape="rect" id="node4" href="$classbtHingeAccumulatedAngleConstraint.html" title="The getAccumulatedHingeAngle returns the accumulated hinge angle, taking rotation across the &#45;PI/PI b..." alt="" coords="5,229,241,256"/>
+<area shape="rect" id="node2" href="$classbtTypedConstraint.html" title="TypedConstraint is the baseclass for Bullet constraints and vehicles. " alt="" coords="59,80,188,107"/>
+<area shape="rect" id="node3" href="$structbtTypedObject.html" title="rudimentary class to provide type info " alt="" coords="70,5,177,32"/>
+</map>

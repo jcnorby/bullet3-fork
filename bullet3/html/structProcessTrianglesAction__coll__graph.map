@@ -1,0 +1,18 @@
+<map id="ProcessTrianglesAction" name="ProcessTrianglesAction">
+<area shape="rect" id="node2" href="$classbtHeightfieldTerrainShape.html" title="btHeightfieldTerrainShape simulates a 2D heightfield terrain " alt="" coords="1179,113,1351,140"/>
+<area shape="rect" id="node3" href="$classbtConcaveShape.html" title="The btConcaveShape class provides an interface for non&#45;moving (static) concave shapes. " alt="" coords="865,5,988,32"/>
+<area shape="rect" id="node4" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="563,5,683,32"/>
+<area shape="rect" id="node5" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btHeightfieldTerrainShape\l::Range \&gt;" alt="" coords="835,56,1019,112"/>
+<area shape="rect" id="node6" href="$structbtHeightfieldTerrainShape_1_1Range.html" title="btHeightfieldTerrainShape\l::Range" alt="" coords="537,58,709,99"/>
+<area shape="rect" id="node7" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btHeightfieldTerrainShape\l::Range, 16 \&gt;" alt="" coords="531,124,715,180"/>
+<area shape="rect" id="node8" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="887,157,966,184"/>
+<area shape="rect" id="node9" href="$structbtTriangleInfoMap.html" title="The btTriangleInfoMap stores edge angle information for some triangles. You can compute this informat..." alt="" coords="863,208,990,235"/>
+<area shape="rect" id="node10" href="$classbtHashMap.html" title="The btHashMap template class implements a generic and lightweight hashmap. " alt="" coords="538,208,707,235"/>
+<area shape="rect" id="node11" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; Key \&gt;" alt="" coords="252,135,397,177"/>
+<area shape="rect" id="node12" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; Key, 16 \&gt;" alt="" coords="5,135,132,177"/>
+<area shape="rect" id="node13" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; int \&gt;" alt="" coords="252,201,397,242"/>
+<area shape="rect" id="node14" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; int, 16 \&gt;" alt="" coords="5,201,132,242"/>
+<area shape="rect" id="node15" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; Value \&gt;" alt="" coords="252,266,397,307"/>
+<area shape="rect" id="node16" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; Value, 16 \&gt;" alt="" coords="5,266,132,307"/>
+<area shape="rect" id="node17" href="$classbtTriangleCallback.html" title="The btTriangleCallback provides a callback for each overlapping triangle when calling processAllTrian..." alt="" coords="1199,164,1330,191"/>
+</map>

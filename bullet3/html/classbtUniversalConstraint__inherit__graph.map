@@ -1,0 +1,5 @@
+<map id="btUniversalConstraint" name="btUniversalConstraint">
+<area shape="rect" id="node2" href="$classbtGeneric6DofConstraint.html" title="btGeneric6DofConstraint between two rigidbodies each with a pivotpoint that descibes the axis locatio..." alt="" coords="5,155,172,181"/>
+<area shape="rect" id="node3" href="$classbtTypedConstraint.html" title="TypedConstraint is the baseclass for Bullet constraints and vehicles. " alt="" coords="24,80,153,107"/>
+<area shape="rect" id="node4" href="$structbtTypedObject.html" title="rudimentary class to provide type info " alt="" coords="35,5,142,32"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classbtCollisionObject.html" title="btCollisionObject can be used to manage collision detection objects. " alt="" coords="5,81,127,108"/>
+<area shape="rect" id="node2" href="$classbtGhostObject.html" title="The btGhostObject can keep track of all objects that are overlapping By default, this overlap is base..." alt="" coords="201,5,307,32"/>
+<area shape="rect" id="node4" href="$classbtMultiBodyLinkCollider.html" title="btMultiBodyLinkCollider" alt="" coords="175,56,333,83"/>
+<area shape="rect" id="node5" href="$classbtRigidBody.html" title="The btRigidBody is the main class for rigid body objects. " alt="" coords="207,107,301,133"/>
+<area shape="rect" id="node6" href="$classbtSoftBody.html" title="The btSoftBody is an class to simulate cloth and volumetric soft bodies. " alt="" coords="211,157,297,184"/>
+<area shape="rect" id="node3" href="$classbtPairCachingGhostObject.html" title="btPairCachingGhostObject" alt="" coords="381,5,559,32"/>
+</map>

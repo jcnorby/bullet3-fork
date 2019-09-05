@@ -1,0 +1,9 @@
+<map id="btShapeHull" name="btShapeHull">
+<area shape="rect" id="node2" href="$classbtConvexShape.html" title="The btConvexShape is an abstract shape interface, implemented by all convex shapes such as btBoxShape..." alt="" coords="279,5,394,32"/>
+<area shape="rect" id="node3" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="15,5,135,32"/>
+<area shape="rect" id="node4" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; unsigned int \&gt;" alt="" coords="264,57,409,98"/>
+<area shape="rect" id="node5" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; unsigned int, 16 \&gt;" alt="" coords="5,57,144,98"/>
+<area shape="rect" id="node6" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btVector3 \&gt;" alt="" coords="264,122,409,163"/>
+<area shape="rect" id="node7" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="35,125,114,152"/>
+<area shape="rect" id="node8" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btVector3, 16 \&gt;" alt="" coords="11,177,138,218"/>
+</map>

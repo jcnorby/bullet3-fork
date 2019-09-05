@@ -1,0 +1,4 @@
+<map id="btDefaultCollisionConstructionInfo" name="btDefaultCollisionConstructionInfo">
+<area shape="rect" id="node2" href="$classbtPoolAllocator.html" title="The btPoolAllocator class allows to efficiently allocate a large pool of objects, instead of dynamica..." alt="" coords="61,95,171,121"/>
+<area shape="rect" id="node3" href="$classbtSpinMutex.html" title="btSpinMutex – lightweight spin&#45;mutex implemented with atomic ops, never puts a thread to sleep becau..." alt="" coords="69,5,163,32"/>
+</map>

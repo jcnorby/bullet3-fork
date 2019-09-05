@@ -1,0 +1,51 @@
+<map id="btMultiBodyWorldImporterInternalData" name="btMultiBodyWorldImporterInternalData">
+<area shape="rect" id="node2" href="$classbtMultiBodyDynamicsWorld.html" title="The btMultiBodyDynamicsWorld adds Featherstone multi body dynamics to Bullet This implementation is s..." alt="" coords="2659,1489,2843,1515"/>
+<area shape="rect" id="node3" href="$classbtDiscreteDynamicsWorld.html" title="btDiscreteDynamicsWorld provides discrete rigid body simulation those classes replace the obsolete Cc..." alt="" coords="2225,298,2399,325"/>
+<area shape="rect" id="node4" href="$classbtDynamicsWorld.html" title="The btDynamicsWorld is the interface class for several dynamics implementation, basic, discrete, parallel, and continuous etc. " alt="" coords="1839,523,1965,550"/>
+<area shape="rect" id="node5" href="$classbtCollisionWorld.html" title="CollisionWorld is interface and container for the collision detection. " alt="" coords="1310,486,1427,513"/>
+<area shape="rect" id="node6" href="$classbtDispatcher.html" title="The btDispatcher interface class can be used in combination with broadphase to dispatch calculations ..." alt="" coords="872,702,968,729"/>
+<area shape="rect" id="node20" href="$structInplaceSolverIslandCallback.html" title="InplaceSolverIslandCallback" alt="" coords="1809,705,1995,731"/>
+<area shape="rect" id="node36" href="$structMultiBodyInplaceSolverIslandCallback.html" title="MultiBodyInplaceSolverIsland\lCallback" alt="" coords="2215,993,2409,1035"/>
+<area shape="rect" id="node7" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btCollisionObject *\&gt;" alt="" coords="845,388,995,429"/>
+<area shape="rect" id="node17" href="$classbtSimulationIslandManager.html" title="SimulationIslandManager creates and handles simulation islands, using btUnionFind. " alt="" coords="1813,239,1991,266"/>
+<area shape="rect" id="node8" href="$classbtIDebugDraw.html" title="The btIDebugDraw interface class allows hooking up a debug renderer to visually debug simulations..." alt="" coords="867,587,973,614"/>
+<area shape="rect" id="node9" href="$structbtContactSolverInfo.html" title="btContactSolverInfo" alt="" coords="1299,537,1438,563"/>
+<area shape="rect" id="node10" href="$classbtSpinMutex.html" title="btSpinMutex – lightweight spin&#45;mutex implemented with atomic ops, never puts a thread to sleep becau..." alt="" coords="1855,59,1949,86"/>
+<area shape="rect" id="node11" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btActionInterface *\&gt;" alt="" coords="1827,111,1977,152"/>
+<area shape="rect" id="node12" href="$classbtActionInterface.html" title="Basic interface to allow actions such as vehicles and characters to be updated inside a btDynamicsWor..." alt="" coords="1308,139,1429,166"/>
+<area shape="rect" id="node13" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btActionInterface\l *, 16 \&gt;" alt="" coords="1302,59,1435,115"/>
+<area shape="rect" id="node14" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btTypedConstraint *\&gt;" alt="" coords="1289,1005,1448,1047"/>
+<area shape="rect" id="node15" href="$classbtTypedConstraint.html" title="TypedConstraint is the baseclass for Bullet constraints and vehicles. " alt="" coords="855,803,985,830"/>
+<area shape="rect" id="node16" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="5,1587,84,1614"/>
+<area shape="rect" id="node25" href="$classbtMultiBody.html" title="btMultiBody" alt="" coords="875,1643,965,1670"/>
+<area shape="rect" id="node27" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btVector3 \&gt;" alt="" coords="505,1644,650,1685"/>
+<area shape="rect" id="node33" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="188,1509,279,1535"/>
+<area shape="rect" id="node18" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btPersistentManifold * \&gt;" alt="" coords="1281,280,1456,321"/>
+<area shape="rect" id="node19" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btRigidBody *\&gt;" alt="" coords="1829,291,1975,332"/>
+<area shape="rect" id="node21" href="$structbtSimulationIslandManager_1_1IslandCallback.html" title="btSimulationIslandManager\l::IslandCallback" alt="" coords="1279,940,1458,981"/>
+<area shape="rect" id="node22" href="$classbtConstraintSolver.html" title="btConstraintSolver" alt="" coords="855,1071,985,1098"/>
+<area shape="rect" id="node40" href="$classbtSequentialImpulseConstraintSolver.html" title="The btSequentialImpulseConstraintSolver is a fast SIMD implementation of the Projected Gauss Seidel (..." alt="" coords="1269,1301,1469,1343"/>
+<area shape="rect" id="node23" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btMultiBody *\&gt;" alt="" coords="1296,1764,1441,1805"/>
+<area shape="rect" id="node47" href="$classbtHashMap.html" title="btHashMap\&lt; btHashPtr,\l btMultiBody *\&gt;" alt="" coords="1820,1892,1984,1933"/>
+<area shape="rect" id="node24" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btMultiBody *, 16 \&gt;" alt="" coords="847,1776,993,1817"/>
+<area shape="rect" id="node37" href="$classbtMultiBodyConstraint.html" title="btMultiBodyConstraint" alt="" coords="1293,1493,1444,1519"/>
+<area shape="rect" id="node26" href="$classbtQuaternion.html" title="The btQuaternion implements quaternion to perform linear algebra rotations in combination with btMatr..." alt="" coords="529,1779,625,1806"/>
+<area shape="rect" id="node34" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btQuaternion \&gt;" alt="" coords="847,1841,993,1883"/>
+<area shape="rect" id="node44" href="$structbtMultiBodyJacobianData.html" title="btMultiBodyJacobianData" alt="" coords="835,1319,1005,1346"/>
+<area shape="rect" id="node28" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btVector3, 16 \&gt;" alt="" coords="170,1560,297,1601"/>
+<area shape="rect" id="node29" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btScalar \&gt;" alt="" coords="505,1393,650,1435"/>
+<area shape="rect" id="node30" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btScalar, 16 \&gt;" alt="" coords="170,1393,297,1435"/>
+<area shape="rect" id="node31" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btMatrix3x3 \&gt;" alt="" coords="505,1237,650,1279"/>
+<area shape="rect" id="node32" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btMatrix3x3, 16 \&gt;" alt="" coords="165,1237,301,1279"/>
+<area shape="rect" id="node35" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btQuaternion, 16 \&gt;" alt="" coords="506,1847,649,1888"/>
+<area shape="rect" id="node39" href="$classbtMultiBodyConstraintSolver.html" title="btMultiBodyConstraintSolver" alt="" coords="1808,1335,1996,1362"/>
+<area shape="rect" id="node45" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btMultiBodyConstraint *\&gt;" alt="" coords="1812,1520,1992,1561"/>
+<area shape="rect" id="node38" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btSolverAnalyticsData \&gt;" alt="" coords="1814,935,1990,976"/>
+<area shape="rect" id="node41" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; int \&gt;" alt="" coords="847,1520,993,1561"/>
+<area shape="rect" id="node42" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; int, 16 \&gt;" alt="" coords="514,1471,641,1512"/>
+<area shape="rect" id="node43" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btMultiBodySolverConstraint \&gt;" alt="" coords="1263,1236,1475,1277"/>
+<area shape="rect" id="node46" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btMultiBodyConstraint\l *, 16 \&gt;" alt="" coords="1287,1555,1450,1611"/>
+<area shape="rect" id="node48" href="$classbtAlignedObjectArray.html" title="btAlignedObjectArray\l\&lt; btHashPtr \&gt;" alt="" coords="1296,1900,1441,1941"/>
+<area shape="rect" id="node49" href="$classbtHashPtr.html" title="btHashPtr" alt="" coords="879,1907,961,1934"/>
+<area shape="rect" id="node50" href="$classbtAlignedAllocator.html" title="btAlignedAllocator\l\&lt; btHashPtr, 16 \&gt;" alt="" coords="857,1959,983,2000"/>
+</map>

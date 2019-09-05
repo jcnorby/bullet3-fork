@@ -1,0 +1,7 @@
+<map id="btTriangleShapeEx" name="btTriangleShapeEx">
+<area shape="rect" id="node2" href="$classbtTriangleShape.html" title="btTriangleShape" alt="" coords="35,304,151,331"/>
+<area shape="rect" id="node3" href="$classbtPolyhedralConvexShape.html" title="The btPolyhedralConvexShape is an internal interface class for polyhedral convex shapes. " alt="" coords="5,229,181,256"/>
+<area shape="rect" id="node4" href="$classbtConvexInternalShape.html" title="The btConvexInternalShape is an internal base class, shared by most convex shape implementations. " alt="" coords="14,155,173,181"/>
+<area shape="rect" id="node5" href="$classbtConvexShape.html" title="The btConvexShape is an abstract shape interface, implemented by all convex shapes such as btBoxShape..." alt="" coords="36,80,151,107"/>
+<area shape="rect" id="node6" href="$classbtCollisionShape.html" title="The btCollisionShape class provides an interface for collision shapes that can be shared among btColl..." alt="" coords="33,5,153,32"/>
+</map>

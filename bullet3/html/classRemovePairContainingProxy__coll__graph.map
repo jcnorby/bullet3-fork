@@ -1,0 +1,4 @@
+<map id="RemovePairContainingProxy" name="RemovePairContainingProxy">
+<area shape="rect" id="node2" href="$structbtBroadphaseProxy.html" title="The btBroadphaseProxy is the main class that can be used with the Bullet broadphases. " alt="" coords="33,109,169,136"/>
+<area shape="rect" id="node3" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="61,5,140,32"/>
+</map>

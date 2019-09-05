@@ -1,0 +1,5 @@
+<map id="btDiscreteCollisionDetectorInterface::ClosestPointInput" name="btDiscreteCollisionDetectorInterface::ClosestPointInput">
+<area shape="rect" id="node2" href="$classbtTransform.html" title="The btTransform class supports rigid transforms with only translation and rotation and no scaling/she..." alt="" coords="52,184,144,211"/>
+<area shape="rect" id="node3" href="$classbtVector3.html" title="btVector3 can be used to represent 3D points and vectors. " alt="" coords="59,5,137,32"/>
+<area shape="rect" id="node4" href="$classbtMatrix3x3.html" title="The btMatrix3x3 class implements a 3x3 rotation matrix, to perform linear algebra in combination with..." alt="" coords="154,95,245,121"/>
+</map>
