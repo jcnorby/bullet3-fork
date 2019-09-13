@@ -74,6 +74,12 @@ def getBaseState():
   state = np.hstack((pos, ang, vel, ang_vel))
   return state
 
+def setJointStates(targetPosition,targetVel):
+  ji = minitaur.motorIdList
+  for idx in range(0,minitaur.nMotors):
+    jointID = ji[idx]
+    p.resetJointState(minitaur.quadruped, jointID,targetPosition[idx]*minitaur.motorDir[idx],targetVel[idx]*minitaur.motorDir[idx])
+
 def evaluate_desired_ClarkTrot(i_sim, u, phase_start):
   t = i_sim*dt
   
@@ -146,7 +152,6 @@ evaluate_func_map[
 
 def evaluate_params(evaluateFunc,
                     params,
-                    objectiveParams,
                     urdfRoot='',
                     timeStep=dt,
                     maxNumSteps=1,
@@ -168,27 +173,30 @@ def evaluate_params(evaluateFunc,
   x = params[0]
   u = params[1]
   phase_start = params[2]
+
+  # p.resetBasePositionAndOrientation(minitaur.quadruped, x[0:3],
+  #           x[3:7])
+
+  # p.resetBaseVelocity(minitaur.quadruped, x[7:10],
+  #           x[10:])
+
   p.resetBasePositionAndOrientation(minitaur.quadruped, x[0:3],
             x[3:7])
 
-  p.resetBaseVelocity(minitaur.quadruped, x[7:10],
-            x[10:])
+  p.resetBaseVelocity(minitaur.quadruped, x[15:18],
+            x[18:21])
 
+  setJointStates(x[7:15],x[21:29])
 
   new_state = getState()
+
+  # print(new_state)
 
   freq = u[0];
   numTimeSteps = int((maxNumSteps)/(freq*dt))
   for i in range(numTimeSteps+1):
-    torques = minitaur.getMotorTorques()
-    velocities = minitaur.getMotorVelocities()
-    total_energy += np.dot(np.fabs(torques), np.fabs(velocities)) * timeStep
 
-    joint_values = evaluate_func_map[evaluateFunc](i, u, phase_start)
-    minitaur.applyAction(joint_values)
-    p.stepSimulation()
-
-    if np.mod(i*timeStep, 1/freq)==0:
+    if np.mod(i*timeStep, 1/(2*freq))==0:
       stepNum = int(i*timeStep*freq)
       old_state = new_state
       new_state = getState()
@@ -196,14 +204,21 @@ def evaluate_params(evaluateFunc,
       
       # print(stepNum)
       # print(i)
+      # print(new_state - old_state)
       # print(error_in_SS)
-      # print(new_state)
+      # print(old_state)
 
+    torques = minitaur.getMotorTorques()
+    velocities = minitaur.getMotorVelocities()
 
+    joint_values = evaluate_func_map[evaluateFunc](i, u, phase_start)
+    minitaur.applyAction(joint_values)
+    p.stepSimulation()
 
     if (is_fallen()):
       break
 
+    # sleepTime = dt
     # # uncomment this to run in real time
     # if i % 100 == 0:
     #   sys.stdout.write('.')
@@ -212,14 +227,13 @@ def evaluate_params(evaluateFunc,
 
   # print(' ')
 
-  alpha = objectiveParams[0]
+
   final_distance = np.linalg.norm(start_position - current_position())
-  finalReturn = final_distance - alpha * total_energy
   elapsedTime = time.time() - beforeTime
   # print("trial for ", params, " final_distance", final_distance, "total_energy", total_energy,
   #       "finalReturn", finalReturn, "elapsed_time", elapsedTime)
   
   # return new_state
-  base_state = getBaseState()
+  final_state = getState()
   # print base_state
-  return base_state
+  return final_state

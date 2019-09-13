@@ -1,132 +1,54 @@
-import sys
-#some python interpreters need '.' added
-sys.path.append(".")
-
 import pybullet as p
 from minitaur import Minitaur
 from minitaur_evaluate_steady_state import *
+from AB_Partial_FD import *
 
 import time
 import math
 import numpy as np
 
-import rospy
-from std_msgs.msg import String
-    
-def talker():
-    pub = rospy.Publisher('custom_chatter', String, queue_size=10)
-    rospy.init_node('talker', anonymous=True)
-    rate = rospy.Rate(10) # 10hz
-    while not rospy.is_shutdown():
-        hello_str = "hello world %s" % rospy.get_time()
-        rospy.loginfo(hello_str)
-        pub.publish(hello_str)
-        rate.sleep()
-
-def AB_Partial_FD_test( x , u ):
-  x = np.array(x)
-  u = np.array(u)
-
-  Nx = x.shape[0]
-  Nu = u.shape[0]
-  xb = x.copy()
-  ub = u.copy()
-
-  A = np.zeros((Nx,Nx))
-  B = np.zeros((Nx,Nu))
-  EPS_x = 1e-3*np.ones((Nx,1)) # tune these individual values to fit the scale of your problem
-  EPS_u = 1e-3*np.ones((Nu,1)) # tune these individual values to fit the scale of your problem
-
-  phase_start = 0
-  params = [x,u,phase_start]
-  timeStep = 0.01
-  energy_weight = 0.01
-  f = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
-                                params=params,
-                                objectiveParams=[energy_weight],
-                                timeStep=timeStep,
-                                sleepTime=timeStep) # unperturbed baseline
-
-  for i in range(0,Nx):
-    xb = x.copy()
-    xb[i] = xb[i] + EPS_x[i] # perturb u(i), leave the rest alone
-    params = [xb, u,phase_start]
-    f_eps = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
-                                params=params,
-                                objectiveParams=[energy_weight],
-                                timeStep=timeStep,
-                                sleepTime=timeStep)# original x, perturbed u_
-    A[:,i]=(f_eps-f)/EPS_x[i] # column of B
-
-  
-  for i in range(0,Nu):
-    ub = u ;
-    ub[i] = ub[i]+EPS_u[i] ;# perturb u(i), leave the rest alone
-    params = [x , ub,phase_start]
-    f_eps = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
-                                params=params,
-                                objectiveParams=[energy_weight],
-                                timeStep=timeStep,
-                                sleepTime=timeStep)# original x, perturbed u_
-    B[:,i]=(f_eps-f)/EPS_u[i] ;# column of B
-
-  return A,B
-
 def main(unused_args):
   timeStep = 0.01
+
+  # Connect to pybullet and specify whether or not to include visualization
   c = p.connect(p.SHARED_MEMORY)
   if (c < 0):
     c = p.connect(p.DIRECT) # p.DIRECT will run without visualization, p.GUI with
 
-  # params = [
-  #     0.1903581461951056, 0.0006732219568880068, 0.05018085615283363, 3.219916795483583,
-  #     6.2406418167980595, 4.189869754607539
-  # ]
+  x = np.array([ 0,  3.71007157e-02,  1.67608366e-01,  3.47205380e-02,
+  5.84787077e-03,  1.67481948e-02,  9.99239603e-01,  1.29537108e+00,
+  1.99771366e+00,  2.00992911e+00,  1.33356658e+00,  1.30525442e+00,
+  1.89467394e+00,  1.99470402e+00,  1.29281799e+00,  2.22655479e-01,
+  2.24724365e-01, -3.31051876e-02, -1.27319634e+00, -8.15180026e-01,
+ -3.90535843e-02, -1.10133996e+00,  3.67661548e+00,  6.06502348e+00,
+  6.53684025e+00,  9.06954511e-01,  4.61643604e+00,  3.37372065e+00,
+ -1.59542238e+00]) # Starting in with legs 0 and 3 in stance
 
-  x = np.array([0.0, 0.00661525, 0.16126829, 0.00584273, -0.00319244, 0.0342086, 0.99939254,
-    4.35245248e-01, 3.97194500e-04, -6.56814669e-02, 0.03390188, -0.05447527,  0.15126569])
+#   x = np.array([ 0.19558398,   0.11167144,   0.16084824,  -0.02922118,   0.01263363,
+#    0.03453543,   0.9988963 ,   1.96871605,   1.19542187,   1.27579749,
+#    1.98934208,   1.96765152,   1.32279137,   1.25747172,   1.95808616,
+#    0.42862554,   0.10216523,  -0.07538367,  -0.17907655,  -1.65229193,
+#   -0.16122856,  -5.52325435,   9.64465354, -10.61484083,   7.97054817,
+#    3.05997609,   1.36891133,  -1.27479608,  -7.74961917]) # Starting in with legs 1 and 2 in stance
 
+  # Initial parameters for walking controller
   freq = 2.0
   duty_factor = 50
   stride_length = 0.12
   approach_angle = 40
 
+  # put parameters into vector with correct order
   u = [freq, duty_factor, stride_length, approach_angle]
 
-  phase_start = 0 # set to 1 for starting from the opposite leg pair UNTESTED AT THE MOMENT
-  params = [x,u,phase_start]
+  # Specify what phase of the gait to start in (03 or 12)
+  phase_start = 0 # set to 0 to start with legs 0 and 3 in stance, 1 for starting with legs 1 and 2 in stance
 
-  # evaluate_func = 'evaluate_desired_ClarkTrot'
-  # energy_weight = 0.01
-
-  # new_state = evaluate_params(evaluateFunc=evaluate_func,
-  #                               params=params,
-  #                               objectiveParams=[energy_weight],
-  #                               timeStep=timeStep,
-  #                               sleepTime=timeStep)
-
-  # print(new_state)
+  # Compute A, B, and the time elapsed in computation, and print the results
   t = time.time()
-  A,B = AB_Partial_FD_test( x , u)
+  A,B = AB_Partial_FD( x , u, phase_start)
   elapsed = time.time() - t
   print A
   print B
-  print elapsed
-
-  # try:
-  #     pub = rospy.Publisher('minitaur_state', String, queue_size=10)
-  #     rospy.init_node('bullet', anonymous=True)
-  # except rospy.ROSInterruptException:
-  #     pass
-  
-  # hello_str = "hello world %s" % rospy.get_time()
-  # rospy.loginfo(hello_str)
-  # pub.publish(hello_str)
-
-  # if __name__ == '__main__':
-  #   try:
-  #       talker()
-  #   except rospy.ROSInterruptException:
-  #       pass
+  print ("time to compute: " + str(elapsed) + " s.")
 
 main(0)
