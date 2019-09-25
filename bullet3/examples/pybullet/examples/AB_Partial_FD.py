@@ -2,7 +2,6 @@
 # to the next given a contact state, controller, and starting phase (phase_start = 0
 # specifies starting with legs 0 and 3 in stance, phase_start = 1 specifies starting with
 # legs 1 and 2 in stance.
-
 import pybullet as p
 from minitaur import Minitaur
 from minitaur_evaluate_steady_state import *
@@ -10,7 +9,7 @@ import time
 import math
 import numpy as np
 
-def AB_Partial_FD( x , u, phase_start ):
+def AB_Partial_FD( x , u, phase_start ,path_urdf = ''):
   x = np.array(x)
   u = np.array(u)
 
@@ -27,8 +26,10 @@ def AB_Partial_FD( x , u, phase_start ):
   phase_start = 0
   params = [x,u,phase_start]
   timeStep = 0.01
+
   f = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
                                 params=params,
+                                urdfRoot=path_urdf,
                                 timeStep=timeStep) # unperturbed baseline
 
   for i in range(0,Nx):
@@ -37,6 +38,7 @@ def AB_Partial_FD( x , u, phase_start ):
     params = [xb, u,phase_start]
     f_eps = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
                                 params=params,
+                                urdfRoot=path_urdf,
                                 timeStep=timeStep)# original x, perturbed u_
     A[:,i]=(f_eps-f)/EPS_x[i] # column of B
 
@@ -47,6 +49,7 @@ def AB_Partial_FD( x , u, phase_start ):
     params = [x , ub,phase_start]
     f_eps = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
                                 params=params,
+                                urdfRoot=path_urdf,
                                 timeStep=timeStep)# original x, perturbed u_
     B[:,i]=(f_eps-f)/EPS_u[i] ;# column of B
 
