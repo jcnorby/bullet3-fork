@@ -154,7 +154,7 @@ def evaluate_params(evaluateFunc,
                     params,
                     urdfRoot='',
                     timeStep=dt,
-                    maxNumSteps=1,
+                    maxNumSteps=20,
                     sleepTime=0):
   # print('start evaluation')
   beforeTime = time.time()
@@ -196,11 +196,11 @@ def evaluate_params(evaluateFunc,
   numTimeSteps = int((maxNumSteps)/(freq*dt))
   for i in range(numTimeSteps+1):
 
-    if np.mod(i*timeStep, 1/(2*freq))==0:
+    if np.mod(i*timeStep, 1/(2*freq))<dt:
       stepNum = int(i*timeStep*freq)
-      old_state = new_state
-      new_state = getState()
-      error_in_SS = LA.norm(new_state - old_state)
+      # old_state = new_state
+      # new_state = getState()
+      # error_in_SS = LA.norm(new_state[1:] - old_state[1:])
       
       # print(stepNum)
       # print(i)
@@ -215,15 +215,52 @@ def evaluate_params(evaluateFunc,
     minitaur.applyAction(joint_values)
     p.stepSimulation()
 
+    # Check contact point on correct toe
+    if phase_start == 0:
+      contacts = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_front_leftR_joint']) # link index
+    elif phase_start == 1:
+      contacts = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_front_rightL_joint']) # link index
+
+    contact_time_window = (np.mod(i*timeStep, 1/freq)>=0.65) or (np.mod(i*timeStep, 1/freq)<0.15)
+    if np.mod(i*timeStep, 1/freq) == 0.15:
+      waiting_for_contact = True
+
+    # print(contact_time_window)
+    # print(waiting_for_contact)
+    # print(contacts)
+    # once 65% of the gait cycle has elapsed and contact has just occurred, grab contact state
+    if contact_time_window and waiting_for_contact and contacts:
+      waiting_for_contact = False
+      contact_state = getState()
+      # print(contact_state)
+
+      old_state = new_state
+      new_state = contact_state
+      error_in_SS = LA.norm(new_state[1:] - old_state[1:])
+      
+      print(stepNum)
+      # print(i)
+      # print(new_state - old_state)
+      print(error_in_SS)
+      print(old_state)
+
+      # break;
+
+    # print("\n")
+    # for joint_idx in range(0, p.getNumJoints(minitaur.quadruped)):
+    #   print("\n")
+    #   joint = p.getJointInfo(minitaur.quadruped, joint_idx)
+    #   print(joint)
+
     if (is_fallen()):
       break
 
-    # sleepTime = dt
-    # # uncomment this to run in real time
-    # if i % 100 == 0:
-    #   sys.stdout.write('.')
-    #   sys.stdout.flush()
-    # time.sleep(sleepTime)
+    # uncomment this to run in real time (or increase sleepTime for slow motion)
+    sleepTime = dt
+    if i % 100 == 0:
+      sys.stdout.write('.')
+      sys.stdout.flush()
+    time.sleep(sleepTime)
 
   # print(' ')
 

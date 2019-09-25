@@ -30,8 +30,8 @@ class Minitaur:
 
   def reset(self):
     self.quadruped = p.loadURDF("%s/quadruped/minitaur.urdf" % self.urdfRootPath, 0, 0, .2)
-    self.kp = 2
-    self.kd = 1
+    self.kp = 2 # 2
+    self.kd = 0.5 # 0.5
     self.maxForce = 3.5
     self.nMotors = 8
     self.motorIdList = []
