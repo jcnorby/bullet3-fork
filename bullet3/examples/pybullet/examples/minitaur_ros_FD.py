@@ -9,7 +9,7 @@ import math
 import numpy as np
 
 def main(unused_args):
-  timeStep = 0.01
+  # timeStep = 0.01
 
   # Connect to pybullet and specify whether or not to include visualization
   c = p.connect(p.SHARED_MEMORY)

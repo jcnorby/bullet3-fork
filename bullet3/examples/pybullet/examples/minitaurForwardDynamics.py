@@ -10,24 +10,15 @@ import time
 import math
 import numpy as np
 
-def forwardDynamics( x , u, phase_start ):
+def minitaurForwardDynamics( x , u, phase_start, path_urdf = '' ):
   x = np.array(x)
   u = np.array(u)
-
-  Nx = x.shape[0]
-  Nu = u.shape[0]
-  xb = x.copy()
-  ub = u.copy()
-
-  A = np.zeros((Nx,Nx))
-  B = np.zeros((Nx,Nu))
-  EPS_x = 1e-3*np.ones((Nx,1)) # tune these individual values to fit the scale of your problem
-  EPS_u = 1e-3*np.ones((Nu,1)) # tune these individual values to fit the scale of your problem
 
   params = [x,u,phase_start]
   timeStep = 0.01
   f = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
                                 params=params,
+                                urdfRoot=path_urdf,
                                 timeStep=timeStep) # unperturbed baseline
 
   return f
