@@ -154,7 +154,7 @@ def evaluate_params(evaluateFunc,
                     params,
                     urdfRoot='',
                     timeStep=dt,
-                    maxNumSteps=20,
+                    maxNumSteps=2,
                     sleepTime=0):
   # print('start evaluation')
   beforeTime = time.time()
@@ -194,6 +194,7 @@ def evaluate_params(evaluateFunc,
 
   freq = u[0];
   numTimeSteps = int((maxNumSteps)/(freq*dt))
+  waiting_for_contact = False
   for i in range(numTimeSteps+1):
 
     if np.mod(i*timeStep, 1/(2*freq))<dt:
@@ -217,19 +218,19 @@ def evaluate_params(evaluateFunc,
 
     # Check contact point on correct toe
     if phase_start == 0:
-      contacts = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_front_leftR_joint']) # link index
+      contact_0 = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_front_leftR_joint']) # link index
+      contact_1 = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_back_rightL_joint']) # link index
     elif phase_start == 1:
-      contacts = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_front_rightL_joint']) # link index
+      contact_0 = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_front_rightL_joint']) # link index
+      contact_1 = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_back_leftR_joint']) # link index
 
-    contact_time_window = (np.mod(i*timeStep, 1/freq)>=0.65) or (np.mod(i*timeStep, 1/freq)<0.15)
-    if np.mod(i*timeStep, 1/freq) == 0.15:
+    # Define window of allowed contact and reset waiting_for_contact only when the foot is in the air
+    contact_time_window = (np.mod(i*timeStep, 1/freq)>=0.65/freq) or (np.mod(i*timeStep, 1/freq)<0.15/freq)
+    if (np.mod(i*timeStep, 1/freq) > 0.40/freq) and (np.mod(i*timeStep, 1/freq) < 0.50/freq):
       waiting_for_contact = True
 
-    # print(contact_time_window)
-    # print(waiting_for_contact)
-    # print(contacts)
-    # once 65% of the gait cycle has elapsed and contact has just occurred, grab contact state
-    if contact_time_window and waiting_for_contact and contacts:
+    # once 65% of the gait cycle has elapsed and both contacts have occurred, grab contact state
+    if contact_time_window and waiting_for_contact and contact_0 and contact_1:
       waiting_for_contact = False
       contact_state = getState()
       # print(contact_state)
@@ -238,13 +239,13 @@ def evaluate_params(evaluateFunc,
       new_state = contact_state
       error_in_SS = LA.norm(new_state[1:] - old_state[1:])
       
-      print(stepNum)
+      # print(stepNum)
       # print(i)
       # print(new_state - old_state)
-      print(error_in_SS)
-      print(old_state)
+      # print(error_in_SS)
+      # print(old_state)
 
-      # break;
+      break;
 
     # print("\n")
     # for joint_idx in range(0, p.getNumJoints(minitaur.quadruped)):
@@ -255,12 +256,12 @@ def evaluate_params(evaluateFunc,
     if (is_fallen()):
       break
 
-    # uncomment this to run in real time (or increase sleepTime for slow motion)
-    sleepTime = dt
-    if i % 100 == 0:
-      sys.stdout.write('.')
-      sys.stdout.flush()
-    time.sleep(sleepTime)
+    # # uncomment this to run in real time (or increase sleepTime for slow motion)
+    # sleepTime = 0.1
+    # if i % 100 == 0:
+    #   sys.stdout.write('.')
+    #   sys.stdout.flush()
+    # time.sleep(sleepTime)
 
   # print(' ')
 

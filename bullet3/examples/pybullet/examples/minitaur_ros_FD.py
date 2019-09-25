@@ -14,7 +14,7 @@ def main(unused_args):
   # Connect to pybullet and specify whether or not to include visualization
   c = p.connect(p.SHARED_MEMORY)
   if (c < 0):
-    c = p.connect(p.GUI) # p.DIRECT will run without visualization, p.GUI with
+    c = p.connect(p.DIRECT) # p.DIRECT will run without visualization, p.GUI with
 
   x = np.array([0, -3.20859384e-02,  1.61114886e-01, -2.18918821e-02,
   8.85364602e-03,  1.31874222e-02,  9.99634158e-01,  1.97144226e+00,
@@ -32,14 +32,14 @@ def main(unused_args):
 #   -0.16122856,  -5.52325435,   9.64465354, -10.61484083,   7.97054817,
 #    3.05997609,   1.36891133,  -1.27479608,  -7.74961917]) # Starting in with legs 1 and 2 in stance
 
-  x = np.array([0, -4.40913368e-02,  1.61121151e-01,  3.71526097e-03,
-  9.95376118e-03, -1.45742124e-02,  9.99837343e-01,  1.33061622e+00,
-  1.84526430e+00,  1.91940144e+00,  1.24742314e+00,  1.24677634e+00,
-  1.91663767e+00,  1.84432257e+00,  1.37487092e+00,  3.54336912e-01,
-  4.88452843e-03, -3.35624132e-02, -9.45515449e-02, -3.20050495e-01,
-  3.45655519e-02, -1.47322678e+00,  2.47129028e+00, -1.75420560e+00,
-  3.73805767e+00,  3.71862549e+00, -2.02291440e+00,  2.49387660e+00,
- -2.40561858e+00])
+ #  x = np.array([0, -4.40913368e-02,  1.61121151e-01,  3.71526097e-03,
+ #  9.95376118e-03, -1.45742124e-02,  9.99837343e-01,  1.33061622e+00,
+ #  1.84526430e+00,  1.91940144e+00,  1.24742314e+00,  1.24677634e+00,
+ #  1.91663767e+00,  1.84432257e+00,  1.37487092e+00,  3.54336912e-01,
+ #  4.88452843e-03, -3.35624132e-02, -9.45515449e-02, -3.20050495e-01,
+ #  3.45655519e-02, -1.47322678e+00,  2.47129028e+00, -1.75420560e+00,
+ #  3.73805767e+00,  3.71862549e+00, -2.02291440e+00,  2.49387660e+00,
+ # -2.40561858e+00])
 
   # Initial parameters for walking controller
   freq = 2.0 # 2.0
@@ -51,7 +51,7 @@ def main(unused_args):
   u = [freq, duty_factor, stride_length, approach_angle]
 
   # Specify what phase of the gait to start in (03 or 12)
-  phase_start = 1 # set to 0 to start with legs 0 and 3 in stance, 1 for starting with legs 1 and 2 in stance
+  phase_start = 0 # set to 0 to start with legs 0 and 3 in stance, 1 for starting with legs 1 and 2 in stance
 
   # Compute A, B, and the time elapsed in computation, and print the results
   t = time.time()
