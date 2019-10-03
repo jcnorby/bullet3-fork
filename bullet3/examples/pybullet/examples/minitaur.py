@@ -15,7 +15,7 @@ class Minitaur:
       jointInfo = p.getJointInfo(self.quadruped, i)
       self.jointNameToId[jointInfo[1].decode('UTF-8')] = jointInfo[0]
     self.resetPose()
-    for i in range(100):
+    for i in range(1):
       p.stepSimulation()
 
   def buildMotorIdList(self):
@@ -29,7 +29,7 @@ class Minitaur:
     self.motorIdList.append(self.jointNameToId['motor_back_rightR_joint'])
 
   def reset(self):
-    self.quadruped = p.loadURDF("%s/quadruped/minitaur.urdf" % self.urdfRootPath, 0, 0, .2)
+    self.quadruped = p.loadURDF("%s/quadruped/minitaur.urdf" % self.urdfRootPath, 0, 0, 0.2)
     self.kp = 2 # 2
     self.kd = 0.5 # 0.5
     self.maxForce = 3.5
@@ -42,21 +42,33 @@ class Minitaur:
   def setMotorAngleById(self, motorId, desiredAngle):
     p.setJointMotorControl2(bodyIndex=self.quadruped,
                             jointIndex=motorId,
-                            controlMode=p.POSITION_CONTROL,
+                            controlMode=p.VELOCITY_CONTROL,
                             targetPosition=desiredAngle,
                             positionGain=self.kp,
                             velocityGain=self.kd,
-                            force=self.maxForce)
+                            force=0)
+
+  def setMotorTorqueById(self, motorId, desiredTorque):
+    p.setJointMotorControl2(bodyIndex=self.quadruped,
+                            jointIndex=motorId,
+                            controlMode=p.TORQUE_CONTROL,
+                            force=desiredTorque)
 
   def setMotorAngleByName(self, motorName, desiredAngle):
     self.setMotorAngleById(self.jointNameToId[motorName], desiredAngle)
+
+  def setMotorTorqueByName(self, motorName, desiredTorque):
+    self.setMotorTorqueById(self.jointNameToId[motorName], desiredTorque)
 
   def resetPose(self):
     kneeFrictionForce = 0
     halfpi = 1.57079632679
     kneeangle = -2.1834  #halfpi - acos(upper_leg_length / lower_leg_length)
 
-    #left front leg
+    
+    # left front leg
+    # self.setMotorAngleByName('motor_front_leftL_joint', self.motorDir[0] * halfpi)
+    # self.setMotorAngleByName('motor_front_leftR_joint', self.motorDir[1] * halfpi)
     p.resetJointState(self.quadruped, self.jointNameToId['motor_front_leftL_joint'],
                       self.motorDir[0] * halfpi)
     p.resetJointState(self.quadruped, self.jointNameToId['knee_front_leftL_joint'],
@@ -69,8 +81,6 @@ class Minitaur:
                        self.jointNameToId['knee_front_leftL_joint'], p.JOINT_POINT2POINT, [0, 0, 0],
                        [0, 0.005, 0.2], [0, 0.01, 0.2])
     
-    self.setMotorAngleByName('motor_front_leftL_joint', self.motorDir[0] * halfpi)
-    self.setMotorAngleByName('motor_front_leftR_joint', self.motorDir[1] * halfpi)
     p.setJointMotorControl2(bodyIndex=self.quadruped,
                             jointIndex=self.jointNameToId['knee_front_leftL_joint'],
                             controlMode=p.VELOCITY_CONTROL,
@@ -81,8 +91,20 @@ class Minitaur:
                             controlMode=p.VELOCITY_CONTROL,
                             targetVelocity=0,
                             force=kneeFrictionForce)
+    p.setJointMotorControl2(bodyIndex=self.quadruped,
+                            jointIndex=self.jointNameToId['motor_front_leftL_joint'],
+                            controlMode=p.VELOCITY_CONTROL,
+                            targetVelocity=0,
+                            force=kneeFrictionForce)
+    p.setJointMotorControl2(bodyIndex=self.quadruped,
+                            jointIndex=self.jointNameToId['motor_front_leftR_joint'],
+                            controlMode=p.VELOCITY_CONTROL,
+                            targetVelocity=0,
+                            force=kneeFrictionForce)
 
-    #left back leg
+    # left back leg
+    # self.setMotorAngleByName('motor_back_leftL_joint', self.motorDir[2] * halfpi)
+    # self.setMotorAngleByName('motor_back_leftR_joint', self.motorDir[3] * halfpi)
     p.resetJointState(self.quadruped, self.jointNameToId['motor_back_leftL_joint'],
                       self.motorDir[2] * halfpi)
     p.resetJointState(self.quadruped, self.jointNameToId['knee_back_leftL_joint'],
@@ -94,8 +116,7 @@ class Minitaur:
     p.createConstraint(self.quadruped, self.jointNameToId['knee_back_leftR_joint'], self.quadruped,
                        self.jointNameToId['knee_back_leftL_joint'], p.JOINT_POINT2POINT, [0, 0, 0],
                        [0, 0.005, 0.2], [0, 0.01, 0.2])
-    self.setMotorAngleByName('motor_back_leftL_joint', self.motorDir[2] * halfpi)
-    self.setMotorAngleByName('motor_back_leftR_joint', self.motorDir[3] * halfpi)
+    
     p.setJointMotorControl2(bodyIndex=self.quadruped,
                             jointIndex=self.jointNameToId['knee_back_leftL_joint'],
                             controlMode=p.VELOCITY_CONTROL,
@@ -106,8 +127,20 @@ class Minitaur:
                             controlMode=p.VELOCITY_CONTROL,
                             targetVelocity=0,
                             force=kneeFrictionForce)
+    p.setJointMotorControl2(bodyIndex=self.quadruped,
+                            jointIndex=self.jointNameToId['motor_back_leftL_joint'],
+                            controlMode=p.VELOCITY_CONTROL,
+                            targetVelocity=0,
+                            force=kneeFrictionForce)
+    p.setJointMotorControl2(bodyIndex=self.quadruped,
+                            jointIndex=self.jointNameToId['motor_back_leftR_joint'],
+                            controlMode=p.VELOCITY_CONTROL,
+                            targetVelocity=0,
+                            force=kneeFrictionForce)
 
-    #right front leg
+    # right front leg
+    # self.setMotorAngleByName('motor_front_rightL_joint', self.motorDir[4] * halfpi)
+    # self.setMotorAngleByName('motor_front_rightR_joint', self.motorDir[5] * halfpi)
     p.resetJointState(self.quadruped, self.jointNameToId['motor_front_rightL_joint'],
                       self.motorDir[4] * halfpi)
     p.resetJointState(self.quadruped, self.jointNameToId['knee_front_rightL_joint'],
@@ -119,8 +152,7 @@ class Minitaur:
     p.createConstraint(self.quadruped, self.jointNameToId['knee_front_rightR_joint'],
                        self.quadruped, self.jointNameToId['knee_front_rightL_joint'],
                        p.JOINT_POINT2POINT, [0, 0, 0], [0, 0.005, 0.2], [0, 0.01, 0.2])
-    self.setMotorAngleByName('motor_front_rightL_joint', self.motorDir[4] * halfpi)
-    self.setMotorAngleByName('motor_front_rightR_joint', self.motorDir[5] * halfpi)
+    
     p.setJointMotorControl2(bodyIndex=self.quadruped,
                             jointIndex=self.jointNameToId['knee_front_rightL_joint'],
                             controlMode=p.VELOCITY_CONTROL,
@@ -131,8 +163,20 @@ class Minitaur:
                             controlMode=p.VELOCITY_CONTROL,
                             targetVelocity=0,
                             force=kneeFrictionForce)
+    p.setJointMotorControl2(bodyIndex=self.quadruped,
+                            jointIndex=self.jointNameToId['motor_front_rightL_joint'],
+                            controlMode=p.VELOCITY_CONTROL,
+                            targetVelocity=0,
+                            force=kneeFrictionForce)
+    p.setJointMotorControl2(bodyIndex=self.quadruped,
+                            jointIndex=self.jointNameToId['motor_front_rightR_joint'],
+                            controlMode=p.VELOCITY_CONTROL,
+                            targetVelocity=0,
+                            force=kneeFrictionForce)
 
     #right back leg
+    # self.setMotorAngleByName('motor_back_rightL_joint', self.motorDir[6] * halfpi)
+    # self.setMotorAngleByName('motor_back_rightR_joint', self.motorDir[7] * halfpi)
     p.resetJointState(self.quadruped, self.jointNameToId['motor_back_rightL_joint'],
                       self.motorDir[6] * halfpi)
     p.resetJointState(self.quadruped, self.jointNameToId['knee_back_rightL_joint'],
@@ -144,8 +188,7 @@ class Minitaur:
     p.createConstraint(self.quadruped, self.jointNameToId['knee_back_rightR_joint'], self.quadruped,
                        self.jointNameToId['knee_back_rightL_joint'], p.JOINT_POINT2POINT, [0, 0, 0],
                        [0, 0.005, 0.2], [0, 0.01, 0.2])
-    self.setMotorAngleByName('motor_back_rightL_joint', self.motorDir[6] * halfpi)
-    self.setMotorAngleByName('motor_back_rightR_joint', self.motorDir[7] * halfpi)
+  
     p.setJointMotorControl2(bodyIndex=self.quadruped,
                             jointIndex=self.jointNameToId['knee_back_rightL_joint'],
                             controlMode=p.VELOCITY_CONTROL,
@@ -153,6 +196,16 @@ class Minitaur:
                             force=kneeFrictionForce)
     p.setJointMotorControl2(bodyIndex=self.quadruped,
                             jointIndex=self.jointNameToId['knee_back_rightR_joint'],
+                            controlMode=p.VELOCITY_CONTROL,
+                            targetVelocity=0,
+                            force=kneeFrictionForce)
+    p.setJointMotorControl2(bodyIndex=self.quadruped,
+                            jointIndex=self.jointNameToId['motor_back_rightL_joint'],
+                            controlMode=p.VELOCITY_CONTROL,
+                            targetVelocity=0,
+                            force=kneeFrictionForce)
+    p.setJointMotorControl2(bodyIndex=self.quadruped,
+                            jointIndex=self.jointNameToId['motor_back_rightR_joint'],
                             controlMode=p.VELOCITY_CONTROL,
                             targetVelocity=0,
                             force=kneeFrictionForce)
@@ -169,6 +222,13 @@ class Minitaur:
     motorCommandsWithDir = np.multiply(motorCommands, self.motorDir)
     for i in range(self.nMotors):
       self.setMotorAngleById(self.motorIdList[i], motorCommandsWithDir[i])
+
+
+  def applyTorqueAction(self, motorCommands):
+    motorCommandsWithDir = np.multiply(motorCommands, self.motorDir)
+    for i in range(self.nMotors):
+      self.setMotorTorqueById(self.motorIdList[i], motorCommandsWithDir[i])
+
 
   def getMotorAngles(self):
     motorAngles = []

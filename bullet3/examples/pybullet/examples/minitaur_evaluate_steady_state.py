@@ -154,7 +154,7 @@ def evaluate_params(evaluateFunc,
                     params,
                     urdfRoot='',
                     timeStep=dt,
-                    maxNumSteps=2,
+                    maxNumSteps=20,
                     sleepTime=0):
   # print('start evaluation')
   beforeTime = time.time()
@@ -163,6 +163,7 @@ def evaluate_params(evaluateFunc,
   p.setTimeStep(timeStep)
   p.loadURDF("%s/plane.urdf" % urdfRoot)
   p.setGravity(0, 0, -10)
+  # p.setGravity(0, 0, 0)
 
   global minitaur
   minitaur = Minitaur(urdfRoot)
@@ -174,22 +175,16 @@ def evaluate_params(evaluateFunc,
   u = params[1]
   phase_start = params[2]
 
-  # p.resetBasePositionAndOrientation(minitaur.quadruped, x[0:3],
-  #           x[3:7])
-
-  # p.resetBaseVelocity(minitaur.quadruped, x[7:10],
-  #           x[10:])
-
+  # Set the position and orientation of the base
   p.resetBasePositionAndOrientation(minitaur.quadruped, x[0:3],
             x[3:7])
-
+  # Set the linear and angular veloity of the base
   p.resetBaseVelocity(minitaur.quadruped, x[15:18],
             x[18:21])
-
+  # Set the position and velocities of each joint
   setJointStates(x[7:15],x[21:29])
 
   new_state = getState()
-
   # print(new_state)
 
   freq = u[0];
@@ -199,22 +194,28 @@ def evaluate_params(evaluateFunc,
 
     if np.mod(i*timeStep, 1/(2*freq))<dt:
       stepNum = int(i*timeStep*freq)
-      # old_state = new_state
-      # new_state = getState()
-      # error_in_SS = LA.norm(new_state[1:] - old_state[1:])
-      
-      # print(stepNum)
-      # print(i)
-      # print(new_state - old_state)
-      # print(error_in_SS)
-      # print(old_state)
 
-    torques = minitaur.getMotorTorques()
-    velocities = minitaur.getMotorVelocities()
+    pos_actual = minitaur.getMotorAngles()
+    vel_actual = minitaur.getMotorVelocities()
 
-    joint_values = evaluate_func_map[evaluateFunc](i, u, phase_start)
-    minitaur.applyAction(joint_values)
+    kp = u[4] # 4
+    kd = u[5] # 0.1
+
+    pos_desired = evaluate_func_map[evaluateFunc](i, u, phase_start)
+    torque_commands = kp*(pos_desired - pos_actual) + kd*(-vel_actual)
+    minitaur.applyTorqueAction(torque_commands)
+
     p.stepSimulation()
+
+    # # print("Pos desired = ", pos_desired[0])
+    # # print("Pos actual = ", pos_actual[0])
+    # print("Torque command desired = ", kp*(pos_desired[0] - pos_actual[0]) + kd*(-vel_actual[0]))
+    # torques = minitaur.getMotorTorques()
+    # torque_0 = p.getJointState(minitaur.quadruped, minitaur.jointNameToId['motor_front_leftL_joint'])
+    # print("Torque command sent = ", torque_commands[0])
+    # print("Torque command actual = ", torques[0])
+    # print("Torque command actual 2 = ", torque_0[3])
+    # print("\n")
 
     # Check contact point on correct toe
     if phase_start == 0:
@@ -223,21 +224,27 @@ def evaluate_params(evaluateFunc,
     elif phase_start == 1:
       contact_0 = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_front_rightL_joint']) # link index
       contact_1 = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_back_leftR_joint']) # link index
-
+    
     # Define window of allowed contact and reset waiting_for_contact only when the foot is in the air
     contact_time_window = (np.mod(i*timeStep, 1/freq)>=0.65/freq) or (np.mod(i*timeStep, 1/freq)<0.15/freq)
     if (np.mod(i*timeStep, 1/freq) > 0.40/freq) and (np.mod(i*timeStep, 1/freq) < 0.50/freq):
       waiting_for_contact = True
 
+    if contact_0 and contact_1 and (i==0):
+      old_contact_feet_pos = [contact_0[0][5], contact_1[0][5]]
+
+
     # once 65% of the gait cycle has elapsed and both contacts have occurred, grab contact state
     if contact_time_window and waiting_for_contact and contact_0 and contact_1:
       waiting_for_contact = False
-      contact_state = getState()
+      # contact_state = getState()
+      contact_feet_pos = [contact_0[0][5], contact_1[0][5]]
+      
       # print(contact_state)
 
-      old_state = new_state
-      new_state = contact_state
-      error_in_SS = LA.norm(new_state[1:] - old_state[1:])
+      # old_state = new_state
+      # new_state = contact_state
+      # error_in_SS = LA.norm(new_state[1:] - old_state[1:])
       
       # print(stepNum)
       # print(i)
@@ -247,21 +254,15 @@ def evaluate_params(evaluateFunc,
 
       break;
 
-    # print("\n")
-    # for joint_idx in range(0, p.getNumJoints(minitaur.quadruped)):
-    #   print("\n")
-    #   joint = p.getJointInfo(minitaur.quadruped, joint_idx)
-    #   print(joint)
-
     if (is_fallen()):
       break
 
-    # # uncomment this to run in real time (or increase sleepTime for slow motion)
-    # sleepTime = 0.1
-    # if i % 100 == 0:
-    #   sys.stdout.write('.')
-    #   sys.stdout.flush()
-    # time.sleep(sleepTime)
+    # uncomment this to run in real time (or increase sleepTime for slow motion)
+    sleepTime = 0.1
+    if i % 100 == 0:
+      sys.stdout.write('.')
+      sys.stdout.flush()
+    time.sleep(sleepTime)
 
   # print(' ')
 
@@ -274,4 +275,4 @@ def evaluate_params(evaluateFunc,
   # return new_state
   final_state = getState()
   # print base_state
-  return final_state
+  return final_state, contact_feet_pos, old_contact_feet_pos
