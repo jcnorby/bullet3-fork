@@ -14,7 +14,7 @@ def main(unused_args):
   # Connect to pybullet and specify whether or not to include visualization
   c = p.connect(p.SHARED_MEMORY)
   if (c < 0):
-    c = p.connect(p.GUI) # p.DIRECT will run without visualization, p.GUI with
+    c = p.connect(p.DIRECT) # p.DIRECT will run without visualization, p.GUI with
 
   x = np.array([0,  0,  1.41505831e-01,  5.61804836e-04,
   1.84150378e-04,  1.79976657e-02,  9.99837854e-01,  1.92288566e+00,
@@ -38,7 +38,7 @@ def main(unused_args):
   freq = 2.0 # 2.0
   duty_factor = 50 # 50
   stride_length = 0.12 # 0.12
-  approach_angle = 75 # 40
+  approach_angle = 75 # 75
   kp = 4 # 4
   kd = 0.1 # 0.1
 
@@ -54,9 +54,9 @@ def main(unused_args):
   f, contact_feet_pos, old_contact_feet_pos = forwardDynamics( x , u, phase_start)
   elapsed = time.time() - t
 
-  # print ("time to compute: " + str(elapsed) + " s.")
-  # print f
-  # print contact_feet_pos
-  # print old_contact_feet_pos
+  print ("time to compute: " + str(elapsed) + " s.")
+  print f
+  print contact_feet_pos
+  print old_contact_feet_pos
 
 main(0)

@@ -154,22 +154,19 @@ def evaluate_params(evaluateFunc,
                     params,
                     urdfRoot='',
                     timeStep=dt,
-                    maxNumSteps=20,
+                    maxNumSteps=2,
                     sleepTime=0):
   # print('start evaluation')
-  beforeTime = time.time()
   p.resetSimulation()
 
   p.setTimeStep(timeStep)
   p.loadURDF("%s/plane.urdf" % urdfRoot)
   p.setGravity(0, 0, -10)
-  # p.setGravity(0, 0, 0)
 
   global minitaur
   minitaur = Minitaur(urdfRoot)
   start_position = current_position()
   last_position = None  # for tracing line
-  total_energy = 0
   
   x = params[0]
   u = params[1]
@@ -192,6 +189,10 @@ def evaluate_params(evaluateFunc,
   waiting_for_contact = False
   for i in range(numTimeSteps+1):
 
+    # If feet start on the ground, log those positions
+    if contact_0 and contact_1 and (i==0):
+      old_contact_feet_pos = [contact_0[0][5], contact_1[0][5]]
+
     if np.mod(i*timeStep, 1/(2*freq))<dt:
       stepNum = int(i*timeStep*freq)
 
@@ -207,16 +208,6 @@ def evaluate_params(evaluateFunc,
 
     p.stepSimulation()
 
-    # # print("Pos desired = ", pos_desired[0])
-    # # print("Pos actual = ", pos_actual[0])
-    # print("Torque command desired = ", kp*(pos_desired[0] - pos_actual[0]) + kd*(-vel_actual[0]))
-    # torques = minitaur.getMotorTorques()
-    # torque_0 = p.getJointState(minitaur.quadruped, minitaur.jointNameToId['motor_front_leftL_joint'])
-    # print("Torque command sent = ", torque_commands[0])
-    # print("Torque command actual = ", torques[0])
-    # print("Torque command actual 2 = ", torque_0[3])
-    # print("\n")
-
     # Check contact point on correct toe
     if phase_start == 0:
       contact_0 = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_front_leftR_joint']) # link index
@@ -224,20 +215,15 @@ def evaluate_params(evaluateFunc,
     elif phase_start == 1:
       contact_0 = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_front_rightL_joint']) # link index
       contact_1 = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_back_leftR_joint']) # link index
-    
-    # Define window of allowed contact and reset waiting_for_contact only when the foot is in the air
-    contact_time_window = (np.mod(i*timeStep, 1/freq)>=0.65/freq) or (np.mod(i*timeStep, 1/freq)<0.15/freq)
-    if (np.mod(i*timeStep, 1/freq) > 0.40/freq) and (np.mod(i*timeStep, 1/freq) < 0.50/freq):
+
+    # If both feet are in the air after 40% of gait cycle, set waiting bool to true
+    if (not contact_0) and (not contact_1) and (np.mod(i*timeStep, 1/freq) > 0.40/freq):
       waiting_for_contact = True
 
-    if contact_0 and contact_1 and (i==0):
-      old_contact_feet_pos = [contact_0[0][5], contact_1[0][5]]
-
-
-    # once 65% of the gait cycle has elapsed and both contacts have occurred, grab contact state
-    if contact_time_window and waiting_for_contact and contact_0 and contact_1:
+    # If we're ready for contact and both feet touch the ground, log impact and break
+    if waiting_for_contact and contact_0 and contact_1:
       waiting_for_contact = False
-      # contact_state = getState()
+      contact_state = getState()
       contact_feet_pos = [contact_0[0][5], contact_1[0][5]]
       
       # print(contact_state)
@@ -257,21 +243,19 @@ def evaluate_params(evaluateFunc,
     if (is_fallen()):
       break
 
-    # uncomment this to run in real time (or increase sleepTime for slow motion)
-    sleepTime = 0.1
-    if i % 100 == 0:
-      sys.stdout.write('.')
-      sys.stdout.flush()
-    time.sleep(sleepTime)
+    if (np.mod(i*timeStep, 1/freq) > 1.5/freq):
+      print("Contact hasn't happened after 1.5*period")
+    if (i == numTimeSteps):
+      print("Contact didn't happen")
 
-  # print(' ')
+    # # uncomment this to run in real time (or increase sleepTime for slow motion)
+    # sleepTime = 0.1
+    # if i % 100 == 0:
+    #   sys.stdout.write('.')
+    #   sys.stdout.flush()
+    # time.sleep(sleepTime)
 
 
-  final_distance = np.linalg.norm(start_position - current_position())
-  elapsedTime = time.time() - beforeTime
-  # print("trial for ", params, " final_distance", final_distance, "total_energy", total_energy,
-  #       "finalReturn", finalReturn, "elapsed_time", elapsedTime)
-  
   # return new_state
   final_state = getState()
   # print base_state
