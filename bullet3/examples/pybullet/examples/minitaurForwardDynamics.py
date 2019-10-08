@@ -11,14 +11,19 @@ import math
 import numpy as np
 
 def minitaurForwardDynamics( x , u, phase_start, path_urdf = '' ):
-  x = np.array(x)
-  u = np.array(u)
+	x = np.array(x)
+	u = np.array(u)
 
-  params = [x,u,phase_start]
-  timeStep = 0.01
-  f = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
-                                params=params,
-                                urdfRoot=path_urdf,
-                                timeStep=timeStep) # unperturbed baseline
+	print('minitaurForwardDynamics')
+	print(path_urdf)
 
-  return f
+	params = [x,u,phase_start]
+	timeStep = 0.01
+	f = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
+								params=params,
+								urdfRoot=path_urdf,
+								timeStep=timeStep) # unperturbed baseline
+
+	print(f)
+
+	return f
