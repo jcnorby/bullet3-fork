@@ -189,10 +189,6 @@ def evaluate_params(evaluateFunc,
   waiting_for_contact = False
   for i in range(numTimeSteps+1):
 
-    # If feet start on the ground, log those positions
-    if contact_0 and contact_1 and (i==0):
-      old_contact_feet_pos = [contact_0[0][5], contact_1[0][5]]
-
     if np.mod(i*timeStep, 1/(2*freq))<dt:
       stepNum = int(i*timeStep*freq)
 
@@ -215,6 +211,10 @@ def evaluate_params(evaluateFunc,
     elif phase_start == 1:
       contact_0 = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_front_rightL_joint']) # link index
       contact_1 = p.getContactPoints(minitaur.quadruped, 0, minitaur.jointNameToId['knee_back_leftR_joint']) # link index
+
+    # If feet start on the ground, log those positions
+    if contact_0 and contact_1 and (i==0):
+      old_contact_feet_pos = [contact_0[0][5], contact_1[0][5]]
 
     # If both feet are in the air after 40% of gait cycle, set waiting bool to true
     if (not contact_0) and (not contact_1) and (np.mod(i*timeStep, 1/freq) > 0.40/freq):
