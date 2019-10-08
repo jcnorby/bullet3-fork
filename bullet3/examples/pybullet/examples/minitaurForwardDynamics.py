@@ -19,11 +19,11 @@ def minitaurForwardDynamics( x , u, phase_start, path_urdf = '' ):
 
 	params = [x,u,phase_start]
 	timeStep = 0.01
-	f = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
+	f, contact_feet_pos, old_contact_feet_pos = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
 								params=params,
 								urdfRoot=path_urdf,
 								timeStep=timeStep) # unperturbed baseline
 
 	print(f)
 
-	return f
+	return f, contact_feet_pos, old_contact_feet_pos

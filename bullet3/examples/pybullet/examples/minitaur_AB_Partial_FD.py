@@ -9,7 +9,7 @@ import time
 import math
 import numpy as np
 
-def AB_Partial_FD( x , u, phase_start ,path_urdf = ''):
+def minitaur_AB_Partial_FD( x , u, phase_start ,path_urdf = ''):
   x = np.array(x)
   u = np.array(u)
 
@@ -27,7 +27,7 @@ def AB_Partial_FD( x , u, phase_start ,path_urdf = ''):
   params = [x,u,phase_start]
   timeStep = 0.01
 
-  f = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
+  f, contact_feet_pos, old_contact_feet_pos = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
                                 params=params,
                                 urdfRoot=path_urdf,
                                 timeStep=timeStep) # unperturbed baseline
@@ -36,7 +36,7 @@ def AB_Partial_FD( x , u, phase_start ,path_urdf = ''):
     xb = x.copy()
     xb[i] = xb[i] + EPS_x[i] # perturb u(i), leave the rest alone
     params = [xb, u,phase_start]
-    f_eps = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
+    f_eps, contact_feet_pos, old_contact_feet_pos = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
                                 params=params,
                                 urdfRoot=path_urdf,
                                 timeStep=timeStep)# original x, perturbed u_
@@ -47,7 +47,7 @@ def AB_Partial_FD( x , u, phase_start ,path_urdf = ''):
     ub = u ;
     ub[i] = ub[i]+EPS_u[i] ;# perturb u(i), leave the rest alone
     params = [x , ub,phase_start]
-    f_eps = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
+    f_eps, contact_feet_pos, old_contact_feet_pos = evaluate_params(evaluateFunc='evaluate_desired_ClarkTrot',
                                 params=params,
                                 urdfRoot=path_urdf,
                                 timeStep=timeStep)# original x, perturbed u_
